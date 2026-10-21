@@ -1,0 +1,14 @@
+.env
+.venv/
+.venv-crew/
+.venv-phoenix/
+__pycache__/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Artefactos de ejecución: se regeneran
+outputs/
+data/memory/
+# trazas de Phoenix: contienen texto de contratos y prompts
+data/phoenix/
+.crewai/

@@ -1,0 +1,190 @@
+{
+ "config": "C4",
+ "doc_id": "Mantenimiento_XImage_Sagem_1999",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "Mantenimiento_XImage_Sagem_1999",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "governing_law",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   }
+  ]
+ },
+ "segundos": 81.7,
+ "llamadas_llm": 144,
+ "costo_usd": 0.10454,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 404766,
+  "cache": 208896,
+  "salida": 104394
+ },
+ "estados": {
+  "aprobado": 0,
+  "rechazado": 0,
+  "descartado": 0,
+  "ausente": 10
+ },
+ "rechazos_guardrail": 0,
+ "reintentos": 0,
+ "corrida": "outputs/corridas/20261009_122107_C4_Mantenimiento_XImage_Sagem_1999",
+ "filas": [
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "uncapped_liability",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "termination_for_convenience",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "renewal_term",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "governing_law",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "ip_ownership_assignment",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

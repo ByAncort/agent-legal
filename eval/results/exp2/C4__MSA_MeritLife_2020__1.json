@@ -1,0 +1,190 @@
+{
+ "config": "C4",
+ "doc_id": "MSA_MeritLife_2020",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "MSA_MeritLife_2020",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "7",
+    "cita": "EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.",
+    "justificacion": "aprobado: severidad base de la categoría: Alta; matizada por el Defensor (§9); sección corregida por el sistema: §7(a) → §7"
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "7",
+    "cita": "COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR.",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; sección corregida por el sistema: §7(a) → §7"
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": true,
+    "seccion": "5",
+    "cita": "At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other.",
+    "justificacion": "aprobado: severidad base de la categoría: Media; la obligación es mutua; sección corregida por el sistema: §6(a) → §5"
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "10",
+    "cita": "Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld.",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua"
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "11",
+    "cita": "This Agreement shall be governed by and construed in accordance with the laws of the Arizona, without regard to the conflict of laws provisions thereof.",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua"
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": true,
+    "seccion": "4",
+    "cita": "are the property of Company to the extent that such Works were created by Contractor for Company over a time period for which Company has been invoiced and said invoice has been paid",
+    "justificacion": "aprobado: severidad base de la categoría: Media; sección corregida por el sistema: §4(a) → §4"
+   }
+  ]
+ },
+ "segundos": 396.7,
+ "llamadas_llm": 450,
+ "costo_usd": 0.45567,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 3064062,
+  "cache": 2241024,
+  "salida": 386838
+ },
+ "estados": {
+  "aprobado": 6,
+  "rechazado": 0,
+  "descartado": 0,
+  "ausente": 4
+ },
+ "rechazos_guardrail": 0,
+ "reintentos": 0,
+ "corrida": "outputs/corridas/20261009_123515_C4_MSA_MeritLife_2020",
+ "filas": [
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "termination_for_convenience",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "ip_ownership_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  }
+ ]
+}

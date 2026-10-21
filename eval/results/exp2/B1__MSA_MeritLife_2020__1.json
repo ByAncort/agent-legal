@@ -1,0 +1,181 @@
+{
+ "config": "B1",
+ "doc_id": "MSA_MeritLife_2020",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "MSA_MeritLife_2020",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'unlimited liability', 'cap shall not apply' y excepciones al tope. La Sección 7(a) contiene una excepción ('EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9'), pero el Párrafo 9 es solo 'Independent Contractor' y no genera responsabilidad ilimitada; el tope aplica ampliamente, por lo que no hay cláusula de responsabilidad ilimitada."
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "7",
+    "cita": "CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.",
+    "justificacion": "La Sección 7(a) fija un tope de responsabilidad (los fees pagados) y la 7(b) excluye daños indirectos/consecuenciales."
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'liquidated damages', 'penalty', 'termination fee', 'shall pay the sum of'. No se halló ninguna suma predeterminada por incumplimiento o terminación; la Sección 6 solo prevé pago de fees devengados, no una penalidad."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": true,
+    "seccion": "6",
+    "cita": "At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other.",
+    "justificacion": "La Sección 6(a) permite a cualquiera de las partes terminar sin causa con 15 días de aviso previo."
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'renew automatically', 'successive periods', 'renewal term'. La Sección 2 (TERM) solo dice que el contrato continúa hasta ser terminado conforme al Párrafo 6; no hay renovación automática."
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "10",
+    "cita": "Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld.",
+    "justificacion": "La Sección 10 (NONASSIGNABILITY) exige consentimiento previo por escrito de la otra parte para ceder, transferir o subcontratar."
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "11",
+    "cita": "This Agreement shall be governed by and construed in accordance with the laws of the Arizona, without regard to the conflict of laws provisions thereof.",
+    "justificacion": "La Sección 11 (SEVERABILITY; GOVERNING LAW) declara que el contrato se rige por las leyes de Arizona."
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'exclusive', 'sole provider', 'shall not engage any other'. La Sección 4(b) expresamente establece que nada impide a Contractor prestar servicios a otros clientes, por lo que no hay exclusividad."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'non-compete', 'shall not compete', 'competing product', 'competitive business'. No existe cláusula que impida a una parte competir; al contrario, la Sección 4(b) permite a Contractor trabajar para otros clientes."
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": true,
+    "seccion": "4",
+    "cita": "are the property of Company to the extent that such Works were created by Contractor for Company over a time period for which Company has been invoiced and said invoice has been paid.",
+    "justificacion": "La Sección 4(a) establece que los 'Works' creados por Contractor para Company son propiedad de Company, y la 6(b)/11(c) confirman la cesión de derechos sobre Works in progress."
+   }
+  ]
+ },
+ "segundos": 64.5,
+ "llamadas_llm": 6,
+ "costo_usd": 0.00961,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 101375,
+  "cache": 80256,
+  "salida": 3440
+ },
+ "filas": [
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "termination_for_convenience",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": false,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "ip_ownership_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  }
+ ]
+}

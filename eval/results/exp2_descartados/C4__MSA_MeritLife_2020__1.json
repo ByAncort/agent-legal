@@ -1,0 +1,190 @@
+{
+ "config": "C4",
+ "doc_id": "MSA_MeritLife_2020",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "MSA_MeritLife_2020",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "governing_law",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   }
+  ]
+ },
+ "segundos": 80.1,
+ "llamadas_llm": 150,
+ "costo_usd": 0.10653,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 392250,
+  "cache": 201216,
+  "salida": 112884
+ },
+ "estados": {
+  "aprobado": 0,
+  "rechazado": 0,
+  "descartado": 0,
+  "ausente": 10
+ },
+ "rechazos_guardrail": 0,
+ "reintentos": 0,
+ "corrida": "outputs/corridas/20261009_121724_C4_MSA_MeritLife_2020",
+ "filas": [
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "termination_for_convenience",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "ip_ownership_assignment",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

@@ -1,0 +1,515 @@
+{
+  "MSA_MeritLife_2020": {
+    "uncapped_liability": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "7"
+      ],
+      "spans": [
+        {
+          "texto": "EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.",
+          "secciones": [
+            "7"
+          ]
+        }
+      ]
+    },
+    "cap_on_liability": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "7"
+      ],
+      "spans": [
+        {
+          "texto": "EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.",
+          "secciones": [
+            "7"
+          ]
+        },
+        {
+          "texto": "COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR.",
+          "secciones": [
+            "7"
+          ]
+        },
+        {
+          "texto": "NEITHER PARTY SHALL HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+          "secciones": [
+            "7"
+          ]
+        }
+      ]
+    },
+    "liquidated_damages": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "termination_for_convenience": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "5"
+      ],
+      "spans": [
+        {
+          "texto": "At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other.",
+          "secciones": [
+            "5"
+          ]
+        }
+      ]
+    },
+    "renewal_term": {
+      "presente": false,
+      "respuesta_cuad": "",
+      "secciones": [],
+      "spans": []
+    },
+    "anti_assignment": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "10"
+      ],
+      "spans": [
+        {
+          "texto": "Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld.",
+          "secciones": [
+            "10"
+          ]
+        }
+      ]
+    },
+    "governing_law": {
+      "presente": true,
+      "respuesta_cuad": "Arizona",
+      "secciones": [
+        "11"
+      ],
+      "spans": [
+        {
+          "texto": "This Agreement shall be governed by and construed in accordance with the laws of the Arizona, without regard to the conflict of laws provisions thereof.",
+          "secciones": [
+            "11"
+          ]
+        }
+      ]
+    },
+    "exclusivity": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "non_compete": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "ip_ownership_assignment": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "4",
+        "5",
+        "11"
+      ],
+      "spans": [
+        {
+          "texto": "Upon receipt of final payment Contractor shall provide to Company, and will assigns to Company, all right, title and interest to any Works in progress.",
+          "secciones": [
+            "11"
+          ]
+        },
+        {
+          "texto": "Contractor shall provide to Company, and hereby assigns to Company, all right, title and interest to any Works in progress.",
+          "secciones": [
+            "5"
+          ]
+        },
+        {
+          "texto": "The parties agree that all drawings, documents, designs, models, inventions, computer programs, computer systems, data, computer documentation and other tangible materials authored or prepared by Contractor for Company as the work product required by a Statement of Work (collectively, the \"Works\"), are the property of Company to the extent that such Works were created by Contractor for Company over a time period for which Company has been invoiced and said invoice has been paid.",
+          "secciones": [
+            "4"
+          ]
+        },
+        {
+          "texto": "In particular, Company agrees that, notwithstanding anything to the contrary set forth herein: (i) as part of Contractor's provision of the Services hereunder, Contractor may utilize its own proprietary works of authorship, that have not been created specifically for Company, including without limitation software, methodologies, tools, specifications, drawings, sketches, models, samples, records and documentation, as well as copyrights, trademarks, servicemarks, ideas, concepts, know-how, techniques, knowledge or data, which have been originated, developed or purchased by Contractor or by third parties under contract to Contractor, and, (ii) Contractor's Information and Contractor's administrative communications and records relating to the Services shall not be deemed to be Works and are and shall remain the sole and exclusive property of Contractor and Company shall not resell or make use of said property in any other manner other than in connection with the software Company receives under this Agreement.",
+          "secciones": [
+            "4"
+          ]
+        }
+      ]
+    }
+  },
+  "CoBranding_Healthcentral_1999": {
+    "uncapped_liability": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "15"
+      ],
+      "spans": [
+        {
+          "texto": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE CONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE OBLIGATIONS UNDER SECTION 20, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE,\n\n                                                                              10\n\nSTRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST BUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+          "secciones": [
+            "15"
+          ]
+        }
+      ]
+    },
+    "cap_on_liability": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "15"
+      ],
+      "spans": [
+        {
+          "texto": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE CONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE OBLIGATIONS UNDER SECTION 20, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE,\n\n                                                                              10\n\nSTRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST BUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+          "secciones": [
+            "15"
+          ]
+        }
+      ]
+    },
+    "liquidated_damages": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "termination_for_convenience": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "renewal_term": {
+      "presente": false,
+      "respuesta_cuad": "",
+      "secciones": [],
+      "spans": []
+    },
+    "anti_assignment": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "24"
+      ],
+      "spans": [
+        {
+          "texto": "Notwithstanding the foregoing, either party shall be permitted to assign this Agreement and any of its rights and obligations hereunder to an affiliate or related company or to a purchaser of all or substantially all of its Internet business, without obtaining the prior written consent of the other party.",
+          "secciones": [
+            "24"
+          ]
+        },
+        {
+          "texto": "Except as provided in this Section, neither Party may assign its rights or obligations under this Agreement without the prior written consent of the other Party, which shall not be unreasonably withheld.",
+          "secciones": [
+            "24"
+          ]
+        }
+      ]
+    },
+    "governing_law": {
+      "presente": true,
+      "respuesta_cuad": "Ontario, Canada",
+      "secciones": [
+        "21"
+      ],
+      "spans": [
+        {
+          "texto": "This Agreement shall be governed by and interpreted and enforced in accordance with the laws of the Province of Ontario and the Parties agree to abide by the jurisdiction of the Courts of Ontario.",
+          "secciones": [
+            "21"
+          ]
+        }
+      ]
+    },
+    "exclusivity": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "9"
+      ],
+      "spans": [
+        {
+          "texto": "HCI shall not either directly or indirectly license or deliver content to or carry on or be engaged with any other Canadian portal web site, being a Web site which aggregates and markets a variety of content directed to multiple communities of interest and which offers products,\n\nSource: HEALTHCENTRAL COM, S-1/A, 11/8/1999\n\n\n\n\n\ntools and services to a broad base of Canadian end users.",
+          "secciones": [
+            "9"
+          ]
+        },
+        {
+          "texto": "During the Term of the Agreement, and subject to the following requirements respecting Canadian content levels as set out in paragraphs 3(f), (g) and (h), HCI shall be the exclusive health content partner in the health section of the Sympatico web site, provided however, that nothing contained herein shall prevent MediaLinx from entering into an agreement with other parties for: i) a health based web directory; or ii) other health related content whose content does not compete with the content contained on the Co-Branded Site; which in no event shall receive no more than one fifth (1/5th) of the promotion and which shall constitute no more than one fifth (1/5th) of the total health related content which resides on the home page of the Sympatico Health section.",
+          "secciones": [
+            "9"
+          ]
+        },
+        {
+          "texto": "If, at any time during the Term of this Agreement, HCI fails to meet the content requirements set out in paragraphs 3(f), (g) and (h), HCI shall no longer be entitled to be the exclusive health content partner in the health section of the Sympatico web site.",
+          "secciones": [
+            "9"
+          ]
+        }
+      ]
+    },
+    "non_compete": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "4",
+        "7"
+      ],
+      "spans": [
+        {
+          "texto": "Neither party shall permit advertising on the Co-Branded Site from an entity which is a competitor to the other party.",
+          "secciones": [
+            "4"
+          ]
+        },
+        {
+          "texto": "During the Term of this Agreement and for a period of six (6) months thereafter, MediaLinx shall not use or publicly disclose the data collected from users of the Co-Branded Site if such use is for the purpose of providing health information, advertisements, or products that compete with those that reside on the Co-Branded Site.",
+          "secciones": [
+            "7"
+          ]
+        }
+      ]
+    },
+    "ip_ownership_assignment": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    }
+  },
+  "Licencia_Mantenimiento_SparklingSpring_2002": {
+    "uncapped_liability": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "cap_on_liability": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "15"
+      ],
+      "spans": [
+        {
+          "texto": "The exclusive remedy of either party in a claim against the other under this Agreement shall be the recovery of its direct damages.",
+          "secciones": [
+            "15"
+          ]
+        },
+        {
+          "texto": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages even if the defendant party had been advised of the possibility of such damages including but not limited to lost profits, lost revenues, failure to realize expected savings, loss of data and loss of use.",
+          "secciones": [
+            "15"
+          ]
+        }
+      ]
+    },
+    "liquidated_damages": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "termination_for_convenience": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "17"
+      ],
+      "spans": [
+        {
+          "texto": "Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman.",
+          "secciones": [
+            "17"
+          ]
+        }
+      ]
+    },
+    "renewal_term": {
+      "presente": true,
+      "respuesta_cuad": "successive 1 year",
+      "secciones": [
+        "10"
+      ],
+      "spans": [
+        {
+          "texto": "For a renewable one-year term commencing upon the Maintenance Commencement Date, subject to payment of maintenance fees in accordance with the Fee Schedule but without additional fees or charges, Garman shall provide the following Maintenance Services:",
+          "secciones": [
+            "10"
+          ]
+        }
+      ]
+    },
+    "anti_assignment": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "3",
+        "20"
+      ],
+      "spans": [
+        {
+          "texto": "Sparkling shall:<omitted>(c)    not assign this Agreement or transfer, lease, export or grant a sublicence of the Work to any Person, except as and when authorized to do so by Garman in writing;",
+          "secciones": [
+            "3"
+          ]
+        },
+        {
+          "texto": "Neither party may assign this Agreement or any rights and obligations under this Agreement to any third party without the written consent of the other party.",
+          "secciones": [
+            "20"
+          ]
+        }
+      ]
+    },
+    "governing_law": {
+      "presente": true,
+      "respuesta_cuad": "Nova Scotia, Canada",
+      "secciones": [
+        "20"
+      ],
+      "spans": [
+        {
+          "texto": "This Agreement shall be governed by the laws of Nova Scotia and the laws of Canada applicable in Nova Scotia.",
+          "secciones": [
+            "20"
+          ]
+        }
+      ]
+    },
+    "exclusivity": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "non_compete": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "ip_ownership_assignment": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    }
+  },
+  "Mantenimiento_XImage_Sagem_1999": {
+    "uncapped_liability": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "cap_on_liability": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "15"
+      ],
+      "spans": [
+        {
+          "texto": "IN NO EVENT SHALL, XIMAGE BE LIABLE TO MORPHO FOR ANY INCIDENTAL,      CONSEQUENTIAL, SPECIAL OR INDIRECT DAMAGES (INCLUDING WITHOUT      LIMITATION, DAMAGES ARISING FROM LOSS OF BUSINESS, DATA, PROFITS OR      GOODWILL) INCURRED OR SUFFERED BY MORPHO IN CONNECTION WITH, OR ARISING      OUT OF, THIS AGREEMENT OR MORPHO'S USE OF ANY DOCUMENTATION OR SOFTWARE      OR SERVICES PROVIDED, OR TO BE PROVIDED, HEREUNDER, EVEN IF XIMAGE HAS      BEEN APPRISED OF THE LIKELIHOOD OF THE SAME. NO ACTION, REGARDLESS OF      FORM, RELATED TO TRANSACTIONS OCCURRING UNDER, OR CONTEMPLATED BY, THIS      AGREEMENT MAY BE BROUGHT BY EITHER PARTY MORE THAN ONE (1) YEAR AFTER      THE CAUSE OF ACTION HAS ACCRUED.",
+          "secciones": [
+            "15"
+          ]
+        },
+        {
+          "texto": "MORPHO agrees that XIMAGE's total liability to MORPHO for any damages      suffered in connection with, or arising out of, this Agreement or      MORPHO's use of any documentation, product or service provided (or to be      provided) hereunder, regardless of whether any such liability is based      upon contract, tort or other basis, shall be limited to an amount not to      exceed the basic Monthly Maintenance Charges, for a sixty (60) day term      under this Agreement.",
+          "secciones": [
+            "15"
+          ]
+        }
+      ]
+    },
+    "liquidated_damages": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "termination_for_convenience": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "renewal_term": {
+      "presente": true,
+      "respuesta_cuad": "successive 1 year",
+      "secciones": [
+        "2"
+      ],
+      "spans": [
+        {
+          "texto": "This      Agreement shall automatically renew for consecutive one (1) year terms      at XIMAGE's then prevailing rates at the end of each one (1) year term      unless either party gives at least sixty (60) days prior written notice      of the non-renewal of this Agreement.",
+          "secciones": [
+            "2"
+          ]
+        }
+      ]
+    },
+    "anti_assignment": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "18"
+      ],
+      "spans": [
+        {
+          "texto": "The interests of MORPHO in this Agreement are personal and shall not be      assigned, transferred, shared or divided in any manner by MORPHO without a      prior written consent of XIMAGE.",
+          "secciones": [
+            "18"
+          ]
+        }
+      ]
+    },
+    "governing_law": {
+      "presente": false,
+      "respuesta_cuad": "",
+      "secciones": [],
+      "spans": []
+    },
+    "exclusivity": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "non_compete": {
+      "presente": false,
+      "respuesta_cuad": "No",
+      "secciones": [],
+      "spans": []
+    },
+    "ip_ownership_assignment": {
+      "presente": true,
+      "respuesta_cuad": "Yes",
+      "secciones": [
+        "3"
+      ],
+      "spans": [
+        {
+          "texto": "In addition, XIMAGE will provide the      following as additional Customer Support Services:<omitted>(c)  give title to all modifications and improvements to the PSS           Software which XIMAGE generally makes available to its other           customers (at no additional Charge) under standard software           maintenance agreements relating to the Software.",
+          "secciones": [
+            "3"
+          ]
+        }
+      ]
+    }
+  }
+}

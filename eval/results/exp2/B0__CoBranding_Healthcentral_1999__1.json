@@ -1,0 +1,181 @@
+{
+ "config": "B0",
+ "doc_id": "CoBranding_Healthcentral_1999",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "CoBranding_Healthcentral_1999",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": null,
+    "cita": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE CONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE OBLIGATIONS UNDER SECTION 20, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED IN THIS AGREEMENT, UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE, STRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST BUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+    "justificacion": "Sí. La cláusula de limitación de responsabilidad excluye expresamente ciertas obligaciones de su ámbito, de modo que respecto de ellas no opera el límite:\n\n\"EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE CONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE "
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": null,
+    "cita": "UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE, STRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT, INCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT LIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST BUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.",
+    "justificacion": "Sí. El contrato excluye los daños indirectos y consecuenciales, aunque no fija un monto máximo expreso.\n\nCita literal: \"UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE, STRICT LIABILITY, TORT O"
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nLas causales de terminación previstas en el contrato exigen siempre una razón: incumplimiento material no subsanado o falta de acuerdo mutuo en términos que lo requieran, con aviso previo de 30 días (\"Either Party may terminate this Agreement upon 30 "
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nEl fragmento sobre duración solo indica: \"The term of this Agreement shall be for a period of two (2) years (the \"Term\").\" (CoBranding_Healthcentral_1999, sección 11 TERM & TERMINATION), sin mencionar renovación automática."
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "24",
+    "cita": "neither Party may assign its rights or obligations under this Agreement without the prior written consent of the other Party, which shall not be unreasonably withheld.",
+    "justificacion": "Sí. El contrato regula la cesión en la cláusula 24, que establece como regla general la necesidad de consentimiento previo por escrito:\n\n\"neither Party may assign its rights or obligations under this Agreement without the prior written consent of the other Party, which shall not be unreasonably with"
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "21",
+    "cita": "21. GOVERNING LAW\nThis Agreement shall be governed by and interpreted and enforced in accordance\nwith the laws of the Province of Ontario and the Parties agree to abide by the\njurisdiction of the Courts of Ontario.",
+    "justificacion": "Sí. El contrato contiene una cláusula de ley aplicable:\n\n\"21. GOVERNING LAW\nThis Agreement shall be governed by and interpreted and enforced in accordance\nwith the laws of the Province of Ontario and the Parties agree to abide by the\njurisdiction of the Courts of Ontario.\" (CoBranding_Healthcentral_"
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": true,
+    "seccion": "9",
+    "cita": "HCI shall be the exclusive health content partner in the health section of the Sympatico web site",
+    "justificacion": "Sí. El contrato contiene una cláusula de exclusividad en la sección 9, titulada \"EXCLUSIVITY\":\n\n\"HCI shall be the exclusive health content partner in the health section of the Sympatico web site\" (CoBranding_Healthcentral_1999, sección 9 EXCLUSIVITY).\n\nNo obstante, esa exclusividad está limitada: \"n"
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nLos fragmentos recuperados tratan de licencias de uso de marcas y contenido, pero no de cesión de propiedad intelectual entre las partes. Lo que aparece es lo contrario: cada parte retiene su titularidad.\n\n- \"MediaLinx shall retain all right, title to"
+   }
+  ]
+ },
+ "segundos": 101.5,
+ "llamadas_llm": 10,
+ "costo_usd": 0.00937,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 31959,
+  "cache": 1792,
+  "salida": 2087
+ },
+ "filas": [
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": false,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": false,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "termination_for_convenience",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "exclusivity",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "non_compete",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "ip_ownership_assignment",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

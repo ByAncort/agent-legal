@@ -1,0 +1,181 @@
+{
+ "config": "B0",
+ "doc_id": "MSA_MeritLife_2020",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "MSA_MeritLife_2020",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "7",
+    "cita": "EXCEPT WITH RESPECT TO CONTRACTOR’S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.",
+    "justificacion": "Sí. El contrato excluye del tope de responsabilidad las obligaciones del Contratista conforme al párrafo 9.\n\nCita literal: \"EXCEPT WITH RESPECT TO CONTRACTOR’S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFOR"
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "7",
+    "cita": "CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.",
+    "justificacion": "Sí. El contrato contiene tanto un tope máximo de responsabilidad como una exclusión de daños indirectos y consecuenciales.\n\n**Tope máximo de responsabilidad** (MSA_MeritLife_2020, sección 7, párrafo (a)):\n\n- Para el Contratista: \"CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELAT"
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nLos fragmentos recuperados regulan la limitación de responsabilidad (\"CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PA"
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": true,
+    "seccion": "5",
+    "cita": "At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other.",
+    "justificacion": "Sí. El contrato permite la terminación sin causa con aviso previo, en los siguientes términos:\n\n\"At any time that there is no uncompleted Statement of Work outstanding, either party may terminate this Agreement for any or no reason upon fifteen (15) days advance notice to the other.\" (MSA_MeritLife_"
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nEl único fragmento que regula la duración indica: \"The term of this Agreement shall begin on the date hereof and shall continue until terminated by either party pursuant to Paragraph 6 hereof.\" (MSA_MeritLife_2020, sección 2 TERM). No se menciona reno"
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "10",
+    "cita": "Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld.",
+    "justificacion": "Sí. El contrato contiene una cláusula de prohibición de cesión:\n\n\"Neither party shall assign, transfer, or subcontract this Agreement or any of its obligations hereunder without the other party's express, prior written consent, which will not be unreasonably withheld.\" (MSA_MeritLife_2020, sección 1"
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": null,
+    "cita": "Este Acuerdo se regirá e interpretará de conformidad con las leyes de Arizona, sin consideración a las disposiciones sobre conflicto de leyes de la misma.",
+    "justificacion": "Sí. El contrato establece:\n\n\"Este Acuerdo se regirá e interpretará de conformidad con las leyes de Arizona, sin consideración a las disposiciones sobre conflicto de leyes de la misma.\" (MSA_MeritLife_2020, sección 11 SEVERABILITY; GOVERNING LAW)."
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nLos fragmentos recuperados no contienen ninguna cláusula que impida a una parte competir con la otra o operar en cierto mercado, territorio o línea de negocio. Lo más cercano son restricciones distintas: la de no solicitar empleados (\"Neither party sh"
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": true,
+    "seccion": null,
+    "cita": " son propiedad de Company: ",
+    "justificacion": "Sí. El contrato contiene una cláusula de cesión de propiedad intelectual sobre los \"Works\".\n\n- Los \"Works\" son propiedad de Company: \"all drawings, documents, designs, models, inventions, computer programs, computer systems, data, computer documentation and other tangible materials authored or prepa"
+   }
+  ]
+ },
+ "segundos": 138.0,
+ "llamadas_llm": 10,
+ "costo_usd": 0.00716,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 26183,
+  "cache": 3584,
+  "salida": 1734
+ },
+ "filas": [
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "termination_for_convenience",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": false,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "MSA_MeritLife_2020",
+   "categoria": "ip_ownership_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": false,
+   "seccion_correcta": false
+  }
+ ]
+}

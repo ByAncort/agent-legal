@@ -1,0 +1,190 @@
+{
+ "config": "C3",
+ "doc_id": "CoBranding_Healthcentral_1999",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "CoBranding_Healthcentral_1999",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE\nCONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE\nOBLIGATIONS UNDER SECTION 20",
+    "justificacion": "aprobado: severidad base de la categoría: Alta; la obligación es mutua"
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE\nOTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY\nCONTRACT, NEGLIGENCE,",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua"
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "24",
+    "cita": "neither Party may assign its rights or obligations under this Agreement without the prior written consent of the other Party, which shall not be unreasonably withheld.",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua; matizada por el Defensor (§24)"
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "21",
+    "cita": "This Agreement shall be governed by and interpreted and enforced in accordance with the laws of the Province of Ontario and the Parties agree to abide by the jurisdiction of the Courts of Ontario.",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua"
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": true,
+    "seccion": "9",
+    "cita": "HCI shall be the exclusive health content partner in the health section of the Sympatico web site, provided however, that nothing contained herein shall prevent MediaLinx from entering into an agreement with other parties for: i) a health based web directory; or ii) other health related content whose content does not compete with the content contained on the Co-Branded Site",
+    "justificacion": "aprobado: severidad base de la categoría: Alta"
+   },
+   {
+    "categoria": "non_compete",
+    "presente": true,
+    "seccion": "9",
+    "cita": "HCI shall not either directly or indirectly license or deliver content to or carry on or be engaged with any other Canadian portal web site, being a Web site which aggregates and markets a variety of content directed to multiple communities of interest and which offers products, tools and services to a broad base of Canadian end users.",
+    "justificacion": "aprobado: severidad base de la categoría: Alta"
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   }
+  ]
+ },
+ "segundos": 130.0,
+ "llamadas_llm": 65,
+ "costo_usd": 0.07632,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 556715,
+  "cache": 383990,
+  "salida": 40965
+ },
+ "estados": {
+  "aprobado": 6,
+  "rechazado": 0,
+  "descartado": 0,
+  "ausente": 4
+ },
+ "rechazos_guardrail": 0,
+ "reintentos": 0,
+ "corrida": "outputs/corridas/20261009_132114_C3_CoBranding_Healthcentral_1999",
+ "filas": [
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "termination_for_convenience",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "exclusivity",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "non_compete",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "ip_ownership_assignment",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

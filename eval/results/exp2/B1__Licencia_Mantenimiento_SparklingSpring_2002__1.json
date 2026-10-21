@@ -1,0 +1,181 @@
+{
+ "config": "B1",
+ "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "The limitation of liability in this Section 15 shall not apply to breaches of Sections 13 and 14.",
+    "justificacion": "El tope/exclusión de daños de la Sección 15 no aplica a los incumplimientos de las Secciones 13 (indemnidad de PI) y 14, dejando esos supuestos sin el límite de responsabilidad."
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "In no event shall either party be liable to the other for the recovery of any special, indirect or consequential damages",
+    "justificacion": "La Sección 15 limita la responsabilidad al excluir daños especiales, indirectos o consecuenciales y restringir el remedio a los daños directos."
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'liquidated damages', 'penalty', 'termination fee' y 'shall pay the sum of'; no existe ninguna suma predeterminada por incumplimiento o terminación. La Sección 17 solo prevé devolución de fees no devengados, no una penalidad."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": true,
+    "seccion": "17",
+    "cita": "Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman.",
+    "justificacion": "La Sección 17(b) permite a Sparkling terminar el contrato en cualquier momento sin causa, con 90 días de aviso previo por escrito."
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": true,
+    "seccion": "10",
+    "cita": "For a renewable one-year term commencing upon the Maintenance Commencement Date",
+    "justificacion": "La Sección 10 establece un plazo renovable de un año para los servicios de mantenimiento, configurando una renovación por periodos sucesivos."
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "20",
+    "cita": "Neither party may assign this Agreement or any rights and obligations under this Agreement to any third party without the written consent of the other party.",
+    "justificacion": "La Sección 20(d) prohíbe ceder el contrato o derechos y obligaciones a terceros sin el consentimiento escrito de la otra parte."
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "20",
+    "cita": "This Agreement shall be governed by the laws of Nova Scotia and the laws of Canada applicable in Nova Scotia.",
+    "justificacion": "La Sección 20(h) declara que el contrato se rige por las leyes de Nueva Escocia y las leyes de Canadá aplicables allí."
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'exclusive', 'exclusively', 'sole provider', 'shall not engage any other'. La Sección 2 y la 16(b) otorgan licencias expresamente 'non-exclusive', por lo que no hay exclusividad a favor de ninguna parte."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'non-compete', 'shall not compete', 'competing product', 'competitive business'. Solo existe una cláusula de no captación de empleados (Sección 19), que no restringe competir en un mercado o línea de negocio."
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'work made for hire', 'assigns all right, title and interest', 'intellectual property ownership'. La Sección 13 establece lo contrario: 'No title to the intellectual property in the Work is transferred to Sparkling', por lo que no hay cesión de PI."
+   }
+  ]
+ },
+ "segundos": 62.1,
+ "llamadas_llm": 6,
+ "costo_usd": 0.00947,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 95209,
+  "cache": 73216,
+  "salida": 3008
+ },
+ "filas": [
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "uncapped_liability",
+   "esperado": false,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "termination_for_convenience",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "renewal_term",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "ip_ownership_assignment",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

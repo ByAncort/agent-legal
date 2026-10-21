@@ -1,0 +1,36 @@
+# ClauseFinder — RAG sobre contratos legales (Ev.1) + crew multiagente (Ev.2)
+# Python 3.10 a 3.13 (CrewAI no soporta 3.14). Probado con 3.11.0 en Windows 11.
+# Versiones fijadas a las probadas: las APIs de CrewAI y LangChain cambian seguido.
+
+# --- Ev.1: RAG ----------------------------------------------------------------
+# Extracción de PDF (conserva página, necesario para citar)
+pdfplumber==0.11.10
+# Embeddings y re-ranking multilingües, ejecutados en local
+sentence-transformers==5.3.0
+# Índice léxico
+rank_bm25==0.2.2
+# Índice denso (matriz en memoria)
+numpy==2.4.3
+# Generación (DeepSeek y GitHub Models exponen APIs compatibles con OpenAI)
+openai==2.54.0
+python-dotenv==1.2.2
+
+# --- Ev.2: agentes --------------------------------------------------------------
+# Crew multiagente, Flows, memoria unificada (LanceDB) y cliente MCP
+crewai[litellm]==1.15.26
+# Servidor MCP propio (FastMCP, streamable HTTP)
+mcp==1.28.1
+# Agente individual con AgentExecutor (en LangChain 1.x vive en langchain-classic)
+langchain==1.4.4
+langchain-classic==1.0.8
+langchain-openai==1.7.0
+PyYAML==6.0.3
+
+# --- Observabilidad: instrumentación hacia Phoenix (el servidor va en requirements-phoenix.txt)
+arize-phoenix-otel==0.17.2
+openinference-instrumentation-crewai==1.1.20
+openinference-instrumentation-openai==0.1.64
+
+# --- Pruebas y notebook ---------------------------------------------------------
+pytest==9.1.1
+jupyter>=1.0

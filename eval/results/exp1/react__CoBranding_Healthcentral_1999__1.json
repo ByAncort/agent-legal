@@ -1,0 +1,302 @@
+{
+ "patron": "react",
+ "doc_id": "CoBranding_Healthcentral_1999",
+ "modelo": "deepseek-chat",
+ "pasos": [
+  {
+   "n": 1,
+   "razonamiento": "Necesito buscar las cláusulas de responsabilidad (tope e ilimitada), daños preestablecidos, terminación, renovación, cesión, ley aplicable, exclusividad, no competencia y propiedad intelectual. Empiezo con varias búsquedas.",
+   "accion": "buscar_clausulas",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "consulta": "limitation of liability cap consequential damages",
+    "k": 3
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"consulta\": \"limitation of liability cap consequential damages\", \"fragmentos\": [{\"ref\": \"F1\", \"seccion\": \"15\", \"epigrafe\": \"LIMITATION OF LIABILITY\", \"pagina\": 9, \"texto\": \"15. LIMITATION OF LIABILITY\\nEXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE\\nCONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE\\nOBLIGATIONS UNDER SECTION 20, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED\\nIN THIS AGREEMENT, UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE\\nOTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY\\nCONTRACT, NEGLIGENCE,\\n10\\nSTRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT,\\nINCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT\\nLIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST\\nBUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\\nDAMAGES.\"}, {\"ref\": \"F2\", \"seccion\": \"14\", \"epigrafe\": \"INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless \", \"pagina\": 8, \"texto\": \"14. INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless HCI and its employees,\\nrepresentatives, agents and affiliates from any and all liability, loss,\\nclaims, damages or causes of action (each a \\\"Claim\\\"), including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any claim that the MLX Marks or Sympatico Content or any MLX developed\\nadvertising infringes in any manner any copyright, patent, trademark, trade\\nsecret or any other intellectual property right of any third party;\\n(b) By HCI: HCI agrees to indemnify and hold harmless MLX and its employees,\\nrepresentatives, agents and affiliates from any Claim including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any third party claim that the HCI Marks or HCI Content or any HCI\\ndeveloped advertising infringes in any manner any copyright, patent,\\ntrademark, trade secret or any other intellectual property right of any\\nthird party; and\\n(c) Procedure: All indemnification obligations under Section 14, shall be\\nsubject to the following requirements:\\n(i) the indemnified party shall provide the indemnifying party with\\nprompt written notice of any Claim;\\n(ii) the indemnified party shall permit the indemnifying party to assume\\nand control the defense of any action upon the indemnifying party's\\nwritten acknowledgment of the obligation to indemnify; and\\n(iii) the indemnified party shall not enter into any settlement or\\ncompromise of any Claim without the indemnifying party's prior\\nwritten consent, which shall not be unreasonably withheld.\\nIn addition, the indemnified party may, at its own expense, participate in\\nits defense of any Claim. In the event that the indemnifying party assumes\\nthe defense of any such claim, the indemnifying party shall have no\\nliability for legal fees and costs incurred by the indemnified party.\"}, {\"ref\": \"F3\", \"seccion\": \"3\", \"epigrafe\": \"HCI's OBLIGATIONS AND RESPONSIBILITIES\", \"pagina\": 2, \"texto\": \"3. HCI's OBLIGATIONS AND RESPONSIBILITIES\\nDuring the Term of this Agreement HCI shall:\\na) use reasonable commercial efforts to provide industry accepted standards of\\nreliability of service and to make available the appropriate production\\nresources to build and maintain the Co-Branded Site;\\nb) integrate content contained in the HCI Site into the Co-Branded Site of the\\fSympatico web site subject to the prior approval of MediaLinx;\\nc) update the \\\"look and feel\\\" of the Co-Branded Site upon Launch, subject to\\nthe prior approval and consent of MediaLinx;\\nd) ensure that general terms and conditions on the Co-Branded Site are subject\\nto the prior approval of MediaLinx;\\ne) host, manage, update and maintain all aspects of the mutually approved Co-\\nBranded Site including technology, content, production, design, operations,\\nand customer relations save and except forums. Without limiting the\\ngenerality of the foregoing, HCI shall use all reasonable commercial\\nefforts to: 1) ensure that the hosting services provided in connection with\\nthe Co-Branded Site are provided at the same standard as the hosting of the\\nSympatico web site, and 2) ensure that the Co-Branded Site is available 7\\ndays per week and 24 hours per day;\\nf) ensure that the level of Canadian content contained on the Co-Branded Site\\nis maintained at such levels as is found on the HealthyWay section of the\\nSympatico web site on the Launch Date, and ensure that the level of\\nCanadian content is maintained in accordance with the attached Schedule\\n\\\"3\\\";\\ng) design the Co-Branded Site in such a manner so as to make prominent\\nCanadian content, Canadian context and Canadian activity, such as described\\nin Schedule \\\"3\\\";\\nh) make all reasonable efforts to suppress or remove all content from the HCI\\nSite which is to be integrated into the Co-Branded Site that is irrelevant\\nand inappropriate for the Canadian market and ensure that all content\\ncontained in the Co-Branded Site continues to be relevant for the Canadian\\nmarket in accordance with Schedule \\\"3\\\";\\ni) provide MediaLinx with daily usage statistics for the Co-Branded Site in\\naccordance with the following format attached hereto as Schedule \\\"4\\\";\\n3\\nj) have the option to provide and manage some discussion forum hosts referred\\nto in paragraph 2(a) of this Agreement;\\nk) ensure that it only utilizes communications related services and tools on\\nthe Co-Branded Site which have been provided by MediaLinx's Canadian\\ntelecommunication partners, including but not limited to webmail,\\ndirectories, address book, and ip telephony;\\nl) grant to MLX, to the extent that MLX requires access to HCI logos and\\ntrademarks (collectively \\\"HCI Marks\\\") the use of certain HCI Marks as\\nnecessary for the purposes of fulfilling its obligations under this\\nAgreement. MLX assures that the HCI Marks are used …[recortado]"
+  },
+  {
+   "n": 2,
+   "razonamiento": "",
+   "accion": "leer_seccion",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "seccion": "15"
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"seccion\": \"15\", \"epigrafe\": \"LIMITATION OF LIABILITY\", \"pagina\": 9, \"texto\": \"15. LIMITATION OF LIABILITY\\nEXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE\\nCONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE\\nOBLIGATIONS UNDER SECTION 20, NOTWITHSTANDING ANYTHING TO THE CONTRARY CONTAINED\\nIN THIS AGREEMENT, UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE\\nOTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY\\nCONTRACT, NEGLIGENCE,\\n10\\nSTRICT LIABILITY, TORT OR OTHER LEGAL OR EQUITABLE THEORY FOR ANY INDIRECT,\\nINCIDENTAL, CONSEQUENTIAL, SPECIAL OR EXEMPLARY DAMAGES (INCLUDING, WITHOUT\\nLIMITATION, LOSS OF REVENUE OR GOODWILL OR ANTICIPATED PROFITS OR LOST\\nBUSINESS), EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH\\nDAMAGES.\"}"
+  },
+  {
+   "n": 3,
+   "razonamiento": "",
+   "accion": "buscar_clausulas",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "consulta": "termination for convenience without cause upon written notice at any time",
+    "k": 3
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"consulta\": \"termination for convenience without cause upon written notice at any time\", \"fragmentos\": [{\"ref\": \"F1\", \"seccion\": \"11\", \"epigrafe\": \"TERM & TERMINATION\", \"pagina\": 6, \"texto\": \"11. TERM & TERMINATION\\n11.1 Term\\nThe term of this Agreement shall be for a period of two (2) years (the \\\"Term\\\").\\nThe effective date of the start of the Term will be from the Launch Date.\\n11.2 Termination\\n(a) Either Party may terminate this Agreement upon 30 days prior written notice\\nto the other Party if 1) such other Party breaches any material term of\\nthis Agreement, unless such breach is cured within 30 days; or 2) if any of\\nthe terms of this Agreement that require mutual approval are not mutually\\nagreed to;\\n(b) This Agreement may be terminated by a Party immediately, without notice:\\n(i) upon the institution by or against the other Party of insolvency,\\nreceivership, or bankruptcy proceedings or any other proceedings\\nfor the settlement of the other Party's debts, if such proceedings\\nare not dismissed within sixty (60) days;\\n(ii) upon the other Party making an assignment for the benefit of\\ncreditors; or\\n(iii) upon the other Party's dissolution;\\n(c) Either party may terminate this Agreement upon 30 days written notice if\\neither Party's corporate structure has undergone a material ownership\\nchange such that its corporate interests are then in conflict with the\\ncorporate interests of the other Party; and\\n(d) Upon termination or expiration of this Agreement for any reason:\\n(i) the Parties shall immediately cease using the Marks of the other\\nParty;\\n(ii) the Parties shall immediately return to each other all property of\\nthe other and cease using or distributing all advertising or\\npromotional materials, if any, containing references to the other\\nParty or the other Party's product;\\n(iii) the Parties shall remove all special links made pursuant to this\\nAgreement from their respective products of the other Party; and\\n(iv) each Party shall pay to the other Party all outstanding amounts\\nwhich have accrued and are properly owing, including without\\nlimitation, any New Account customer commission payments or net\\nadvertising revenue owed outstanding together with any appropriate\\nfinal reports.\\n7\\f11.3 The exercise of a right of termination or other right or remedy in\\nconnection with this Agreement shall be without prejudice to any other\\nright or remedy to which the terminating party may be entitled under this\\nAgreement or applicable law.\"}, {\"ref\": \"F2\", \"seccion\": \"14\", \"epigrafe\": \"INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless \", \"pagina\": 8, \"texto\": \"14. INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless HCI and its employees,\\nrepresentatives, agents and affiliates from any and all liability, loss,\\nclaims, damages or causes of action (each a \\\"Claim\\\"), including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any claim that the MLX Marks or Sympatico Content or any MLX developed\\nadvertising infringes in any manner any copyright, patent, trademark, trade\\nsecret or any other intellectual property right of any third party;\\n(b) By HCI: HCI agrees to indemnify and hold harmless MLX and its employees,\\nrepresentatives, agents and affiliates from any Claim including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any third party claim that the HCI Marks or HCI Content or any HCI\\ndeveloped advertising infringes in any manner any copyright, patent,\\ntrademark, trade secret or any other intellectual property right of any\\nthird party; and\\n(c) Procedure: All indemnification obligations under Section 14, shall be\\nsubject to the following requirements:\\n(i) the indemnified party shall provide the indemnifying party with\\nprompt written notice of any Claim;\\n(ii) the indemnified party shall permit the indemnifying party to assume\\nand control the defense of any action upon the indemnifying party's\\nwritten acknowledgment of the obligation to indemnify; and\\n(iii) the indemnified party shall not enter into any settlement or\\ncompromise of any Claim without the indemnifying party's prior\\nwritten consent, which shall not be unreasonably withheld.\\nIn addition, the indemnified party may, at its own expense, participate in\\nits defense of any Claim. In the event that the indemnifying party assumes\\nthe defense of any such claim, the indemnifying party shall have no\\nliability for legal fees and costs incurred by the indemnified party.\"}, {\"ref\": \"F3\", \"seccion\": \"16\", \"epigrafe\": \"CONFIDENTIALITY\", \"pagina\": 9, \"texto\": \"16. CONFIDENTIALITY\\nEach Party shall keep confidential any information, data and reports obtained in\\nconnection with this Agreement, unless such information has been rightfully\\nobtained from a third party or is generally available to the public, or as must\\nbe disclosed by law. Upon termination of this Agreement, each of the parties\\n(the \\\"Receiving Party\\\") shall return to the other party (the \\\"Disclosing Party\\\")\\nany records or copies thereof which it may have obtained from the Disclosing\\nParty in connection with its review of the Disclosing Party's business, other\\nthan information otherwise rightfully obtained by Receiving Party, acting in\\ngood faith, from someone other than the Disclosing Party or generally available\\nto the public. Each party shall hold the terms and provisions of this Agreement\\nconfidential and shall not disclose its terms to any person except to its\\nmanagement. Notwithstanding the foregoing, this Agreement and the LOI is subject\\nto the terms and conditions of the Confidentiality and Non-Disclosure Agreement\\nsigned between the Parties dated May 3rd, 1999.\"}]}"
+  },
+  {
+   "n": 4,
+   "razonamiento": "",
+   "accion": "buscar_clausulas",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "consulta": "assign transfer subcontract prior written consent",
+    "k": 3
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"consulta\": \"assign transfer subcontract prior written consent\", \"fragmentos\": [{\"ref\": \"F1\", \"seccion\": \"24\", \"epigrafe\": \"SUCCESSORS AND ASSIGNS\", \"pagina\": 11, \"texto\": \"24. SUCCESSORS AND ASSIGNS\\nExcept as provided in this Section, neither Party may assign its rights or\\nobligations under this Agreement without the prior written consent of the other\\nParty, which shall not be unreasonably withheld. Notwithstanding the foregoing,\\neither party shall be permitted to assign this Agreement and any of its rights\\nand obligations hereunder to an affiliate or related company or to a purchaser\\nof all or substantially all of its Internet business, without obtaining the\\nprior written consent of the other party.\"}, {\"ref\": \"F2\", \"seccion\": \"14\", \"epigrafe\": \"INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless \", \"pagina\": 8, \"texto\": \"14. INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless HCI and its employees,\\nrepresentatives, agents and affiliates from any and all liability, loss,\\nclaims, damages or causes of action (each a \\\"Claim\\\"), including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any claim that the MLX Marks or Sympatico Content or any MLX developed\\nadvertising infringes in any manner any copyright, patent, trademark, trade\\nsecret or any other intellectual property right of any third party;\\n(b) By HCI: HCI agrees to indemnify and hold harmless MLX and its employees,\\nrepresentatives, agents and affiliates from any Claim including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any third party claim that the HCI Marks or HCI Content or any HCI\\ndeveloped advertising infringes in any manner any copyright, patent,\\ntrademark, trade secret or any other intellectual property right of any\\nthird party; and\\n(c) Procedure: All indemnification obligations under Section 14, shall be\\nsubject to the following requirements:\\n(i) the indemnified party shall provide the indemnifying party with\\nprompt written notice of any Claim;\\n(ii) the indemnified party shall permit the indemnifying party to assume\\nand control the defense of any action upon the indemnifying party's\\nwritten acknowledgment of the obligation to indemnify; and\\n(iii) the indemnified party shall not enter into any settlement or\\ncompromise of any Claim without the indemnifying party's prior\\nwritten consent, which shall not be unreasonably withheld.\\nIn addition, the indemnified party may, at its own expense, participate in\\nits defense of any Claim. In the event that the indemnifying party assumes\\nthe defense of any such claim, the indemnifying party shall have no\\nliability for legal fees and costs incurred by the indemnified party.\"}, {\"ref\": \"F3\", \"seccion\": \"3\", \"epigrafe\": \"HCI's OBLIGATIONS AND RESPONSIBILITIES\", \"pagina\": 2, \"texto\": \"3. HCI's OBLIGATIONS AND RESPONSIBILITIES\\nDuring the Term of this Agreement HCI shall:\\na) use reasonable commercial efforts to provide industry accepted standards of\\nreliability of service and to make available the appropriate production\\nresources to build and maintain the Co-Branded Site;\\nb) integrate content contained in the HCI Site into the Co-Branded Site of the\\fSympatico web site subject to the prior approval of MediaLinx;\\nc) update the \\\"look and feel\\\" of the Co-Branded Site upon Launch, subject to\\nthe prior approval and consent of MediaLinx;\\nd) ensure that general terms and conditions on the Co-Branded Site are subject\\nto the prior approval of MediaLinx;\\ne) host, manage, update and maintain all aspects of the mutually approved Co-\\nBranded Site including technology, content, production, design, operations,\\nand customer relations save and except forums. Without limiting the\\ngenerality of the foregoing, HCI shall use all reasonable commercial\\nefforts to: 1) ensure that the hosting services provided in connection with\\nthe Co-Branded Site are provided at the same standard as the hosting of the\\nSympatico web site, and 2) ensure that the Co-Branded Site is available 7\\ndays per week and 24 hours per day;\\nf) ensure that the level of Canadian content contained on the Co-Branded Site\\nis maintained at such levels as is found on the HealthyWay section of the\\nSympatico web site on the Launch Date, and ensure that the level of\\nCanadian content is maintained in accordance with the attached Schedule\\n\\\"3\\\";\\ng) design the Co-Branded Site in such a manner so as to make prominent\\nCanadian content, Canadian context and Canadian activity, such as described\\nin Schedule \\\"3\\\";\\nh) make all reasonable efforts to suppress or remove all content from the HCI\\nSite which is to be integrated into the Co-Branded Site that is irrelevant\\nand inappropriate for the Canadian market and ensure that all content\\ncontained in the Co-Branded Site continues to be relevant for the Canadian\\nmarket in accordance with Schedule \\\"3\\\";\\ni) provide MediaLinx with daily usage statistics for the Co-Branded Site in\\naccordance with the following format attached hereto as Schedule \\\"4\\\";\\n3\\nj) have the option to provide and manage some discussion forum hosts referred\\nto in paragraph 2(a) of this Agreement;\\nk) ensure that it only utilizes communications related services and tools on\\nthe Co-Branded Site which have been provided by MediaLinx's Canadian\\ntelecommunication partners, including but not limited to webmail,\\ndirectories, address book, and ip telephony;\\nl) grant to MLX, to the extent that MLX requires access to HCI logos and\\ntrademarks (collectively \\\"HCI Marks\\\") the use of certain HCI Marks as\\nnecessary for the purposes of fulfilling its obligations under this\\nAgreement. MLX assures that the HCI Marks are used in accordance with HCI's\\nlogo usage guidelines as provided by HCI from time to time. Without\\nlimiting the generality of the foregoing, MLX agrees:\\n(i) that HCI is the owner of the HCI Marks and the g …[recortado]"
+  },
+  {
+   "n": 5,
+   "razonamiento": "",
+   "accion": "buscar_clausulas",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "consulta": "governed by the laws of governing law construed in accordance",
+    "k": 3
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"consulta\": \"governed by the laws of governing law construed in accordance\", \"fragmentos\": [{\"ref\": \"F1\", \"seccion\": \"21\", \"epigrafe\": \"GOVERNING LAW\", \"pagina\": 10, \"texto\": \"21. GOVERNING LAW\\nThis Agreement shall be governed by and interpreted and enforced in accordance\\nwith the laws of the Province of Ontario and the Parties agree to abide by the\\njurisdiction of the Courts of Ontario.\"}, {\"ref\": \"F2\", \"seccion\": \"14\", \"epigrafe\": \"INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless \", \"pagina\": 8, \"texto\": \"14. INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless HCI and its employees,\\nrepresentatives, agents and affiliates from any and all liability, loss,\\nclaims, damages or causes of action (each a \\\"Claim\\\"), including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any claim that the MLX Marks or Sympatico Content or any MLX developed\\nadvertising infringes in any manner any copyright, patent, trademark, trade\\nsecret or any other intellectual property right of any third party;\\n(b) By HCI: HCI agrees to indemnify and hold harmless MLX and its employees,\\nrepresentatives, agents and affiliates from any Claim including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any third party claim that the HCI Marks or HCI Content or any HCI\\ndeveloped advertising infringes in any manner any copyright, patent,\\ntrademark, trade secret or any other intellectual property right of any\\nthird party; and\\n(c) Procedure: All indemnification obligations under Section 14, shall be\\nsubject to the following requirements:\\n(i) the indemnified party shall provide the indemnifying party with\\nprompt written notice of any Claim;\\n(ii) the indemnified party shall permit the indemnifying party to assume\\nand control the defense of any action upon the indemnifying party's\\nwritten acknowledgment of the obligation to indemnify; and\\n(iii) the indemnified party shall not enter into any settlement or\\ncompromise of any Claim without the indemnifying party's prior\\nwritten consent, which shall not be unreasonably withheld.\\nIn addition, the indemnified party may, at its own expense, participate in\\nits defense of any Claim. In the event that the indemnifying party assumes\\nthe defense of any such claim, the indemnifying party shall have no\\nliability for legal fees and costs incurred by the indemnified party.\"}, {\"ref\": \"F3\", \"seccion\": \"3\", \"epigrafe\": \"HCI's OBLIGATIONS AND RESPONSIBILITIES\", \"pagina\": 2, \"texto\": \"3. HCI's OBLIGATIONS AND RESPONSIBILITIES\\nDuring the Term of this Agreement HCI shall:\\na) use reasonable commercial efforts to provide industry accepted standards of\\nreliability of service and to make available the appropriate production\\nresources to build and maintain the Co-Branded Site;\\nb) integrate content contained in the HCI Site into the Co-Branded Site of the\\fSympatico web site subject to the prior approval of MediaLinx;\\nc) update the \\\"look and feel\\\" of the Co-Branded Site upon Launch, subject to\\nthe prior approval and consent of MediaLinx;\\nd) ensure that general terms and conditions on the Co-Branded Site are subject\\nto the prior approval of MediaLinx;\\ne) host, manage, update and maintain all aspects of the mutually approved Co-\\nBranded Site including technology, content, production, design, operations,\\nand customer relations save and except forums. Without limiting the\\ngenerality of the foregoing, HCI shall use all reasonable commercial\\nefforts to: 1) ensure that the hosting services provided in connection with\\nthe Co-Branded Site are provided at the same standard as the hosting of the\\nSympatico web site, and 2) ensure that the Co-Branded Site is available 7\\ndays per week and 24 hours per day;\\nf) ensure that the level of Canadian content contained on the Co-Branded Site\\nis maintained at such levels as is found on the HealthyWay section of the\\nSympatico web site on the Launch Date, and ensure that the level of\\nCanadian content is maintained in accordance with the attached Schedule\\n\\\"3\\\";\\ng) design the Co-Branded Site in such a manner so as to make prominent\\nCanadian content, Canadian context and Canadian activity, such as described\\nin Schedule \\\"3\\\";\\nh) make all reasonable efforts to suppress or remove all content from the HCI\\nSite which is to be integrated into the Co-Branded Site that is irrelevant\\nand inappropriate for the Canadian market and ensure that all content\\ncontained in the Co-Branded Site continues to be relevant for the Canadian\\nmarket in accordance with Schedule \\\"3\\\";\\ni) provide MediaLinx with daily usage statistics for the Co-Branded Site in\\naccordance with the following format attached hereto as Schedule \\\"4\\\";\\n3\\nj) have the option to provide and manage some discussion forum hosts referred\\nto in paragraph 2(a) of this Agreement;\\nk) ensure that it only utilizes communications related services and tools on\\nthe Co-Branded Site which have been provided by MediaLinx's Canadian\\ntelecommunication partners, including but not limited to webmail,\\ndirectories, address book, and ip telephony;\\nl) grant to MLX, to the extent that MLX requires access to HCI logos and\\ntrademarks (collectively \\\"HCI Marks\\\") the use of certain HCI Marks as\\nnecessary for the purposes of fulfilling its obligations under this\\nAgreement. MLX assures that the HCI Marks are used in accordance with HCI's\\nlogo usage guidelines as provided by HCI from time to time. Without\\nlimiting the generality of the foregoing, MLX agrees:\\n(i) that HCI is the owner of the HCI Marks and the goodwill and\\nreputation associated therewith;\\n(ii) not to contest the validity of the HCI Marks or HCI's title\\nthereto;\\n(iii) that MLX acquires no right, title or interest in the HCI Marks, and\\nany and all goodwill associated with the HCI Marks enures\\nexclusively to the benefit of HCI;\\n(iv) to notify HCI promptly of  …[recortado]"
+  },
+  {
+   "n": 6,
+   "razonamiento": "",
+   "accion": "buscar_clausulas",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "consulta": "exclusive exclusively sole provider shall not engage any other",
+    "k": 3
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"consulta\": \"exclusive exclusively sole provider shall not engage any other\", \"fragmentos\": [{\"ref\": \"F1\", \"seccion\": \"9\", \"epigrafe\": \"EXCLUSIVITY\", \"pagina\": 5, \"texto\": \"9. EXCLUSIVITY\\nDuring the Term of the Agreement, and subject to the following requirements\\nrespecting Canadian content levels as set out in paragraphs 3(f), (g) and (h),\\nHCI shall be the exclusive health content partner in the health section of the\\nSympatico web site, provided however, that nothing contained herein shall\\nprevent MediaLinx from entering into an agreement with other parties for: i) a\\nhealth based web directory; or ii) other health related content whose content\\ndoes not compete with the content contained on the Co-Branded Site; which in no\\nevent shall receive no more than one fifth (1/5th) of the promotion and which\\nshall constitute no more than one fifth (1/5th) of the total health related\\ncontent which resides on the home page of the Sympatico Health section. In the\\nevent that MediaLinx obtains a web guide from a third party, MediaLinx and HCI\\nshall discuss how to present both web guides to the user, and make best effort\\nto agree to the kind of experience that the user shall have when utilizing the\\nnew web guide. If, at any time during the Term of this Agreement, HCI fails to\\nmeet the content requirements set out in paragraphs 3(f), (g) and (h), HCI shall\\nno longer be entitled to be the exclusive health content partner in the health\\nsection of the Sympatico web site. HCI shall not either directly or indirectly\\nlicense or deliver content to or carry on or be engaged with any other Canadian\\nportal web site, being a Web site which aggregates and markets a variety of\\ncontent directed to multiple communities of interest and which offers products,\\ftools and services to a broad base of Canadian end users.\\n6\"}, {\"ref\": \"F2\", \"seccion\": \"19\", \"epigrafe\": \"INDEPENDENT CONTRACTORS\", \"pagina\": 10, \"texto\": \"19. INDEPENDENT CONTRACTORS\\nIt is the intention of MLX and HCI that MLX and HCI are, and shall be deemed to\\nbe, independent contractors with respect to the subject matter of this\\nAgreement, and nothing contained in this Agreement shall be deemed or construed\\nin any manner whatsoever as creating any partnership, joint venture, employment,\\nagency, fiduciary or other similar relationship between MLX and HCI.\\n11\"}, {\"ref\": \"F3\", \"seccion\": \"14\", \"epigrafe\": \"INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless \", \"pagina\": 8, \"texto\": \"14. INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless HCI and its employees,\\nrepresentatives, agents and affiliates from any and all liability, loss,\\nclaims, damages or causes of action (each a \\\"Claim\\\"), including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any claim that the MLX Marks or Sympatico Content or any MLX developed\\nadvertising infringes in any manner any copyright, patent, trademark, trade\\nsecret or any other intellectual property right of any third party;\\n(b) By HCI: HCI agrees to indemnify and hold harmless MLX and its employees,\\nrepresentatives, agents and affiliates from any Claim including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any third party claim that the HCI Marks or HCI Content or any HCI\\ndeveloped advertising infringes in any manner any copyright, patent,\\ntrademark, trade secret or any other intellectual property right of any\\nthird party; and\\n(c) Procedure: All indemnification obligations under Section 14, shall be\\nsubject to the following requirements:\\n(i) the indemnified party shall provide the indemnifying party with\\nprompt written notice of any Claim;\\n(ii) the indemnified party shall permit the indemnifying party to assume\\nand control the defense of any action upon the indemnifying party's\\nwritten acknowledgment of the obligation to indemnify; and\\n(iii) the indemnified party shall not enter into any settlement or\\ncompromise of any Claim without the indemnifying party's prior\\nwritten consent, which shall not be unreasonably withheld.\\nIn addition, the indemnified party may, at its own expense, participate in\\nits defense of any Claim. In the event that the indemnifying party assumes\\nthe defense of any such claim, the indemnifying party shall have no\\nliability for legal fees and costs incurred by the indemnified party.\"}]}"
+  },
+  {
+   "n": 7,
+   "razonamiento": "",
+   "accion": "buscar_clausulas",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "consulta": "work made for hire assigns all right title and interest intellectual property ownership",
+    "k": 3
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"consulta\": \"work made for hire assigns all right title and interest intellectual property ownership\", \"fragmentos\": [{\"ref\": \"F1\", \"seccion\": \"12\", \"epigrafe\": \"REPRESENTATIONS & WARRANTIES\", \"pagina\": 7, \"texto\": \"12. REPRESENTATIONS & WARRANTIES\\n(a) MLX's Representations and Warranties.\\nMLX represents and warrants that:\\n(i) it has full right, power and authority to enter into and be bound by the\\nterms and conditions of this Agreement and to perform its obligations\\nunder this Agreement, without the approval or consent of any other\\nparty;\\n(ii) it has sufficient right, title and interest in and to the rights granted\\nto HCI pursuant to this Agreement to enter and perform this Agreement\\nand to enable HCI to perform under this Agreement;\\n(iii) it owns all intellectual property in and to the MLX Marks and the\\nSympatico Content, including but not limited to any and all creative\\nadvertisement content, or has obtained all necessary licenses,\\nclearances, assignments and waivers in respect of any and all\\nintellectual property used in the Sympatico Content, including without\\nlimitation waivers of moral rights necessary to publish, license and\\ndistribute world-wide;\\n(iv) the use, reproduction, distribution or transmission of the Sympatico\\nContent will not violate any laws including criminal laws, commercial\\nlaws, or any rights of any third parties including, but not limited to\\nsuch violations as infringement or misappropriation of copyright,\\npatent, trademark, trade defamation, invasion of privacy or rights of\\ncelebrity, violation of any anti-discrimination law or regulation, or\\nany other right of any person or entity;\\n(v) it has all necessary skills and materials necessary to provide its\\ncontributions to the Co-Branded Site as contemplated by this Agreement.\\nMLX shall perform the services described herein in a timely fashion with\\nall due skill, competence and diligence and the quality of the Co-\\nBranded Site shall meet both HCI's and MLX's standards of high quality\\nand excellence;\\n(vi) that the information contained in the MLX marks and the MLX content is\\naccurate, does not contain any material that is libelous, obscene,\\nmisleading or otherwise harmful.\\n(b) HCI's Representations and Warranties.\\nHCI represents and warrants that:\\n(i) it has full right, power and authority to enter into and be bound by the\\nterms and conditions of this Agreement and to perform its obligations\\nunder this Agreement, without the approval or consent of any other\\nparty;\\n(ii) it has sufficient right, title and interest in and to the rights granted\\nto MLX pursuant to this Agreement to enter and perform this Agreement\\nand to enable MLX to perform under this Agreement;\\n(iii) it owns all intellectual property in and to the HCI Marks and all\\ncontent HCI contributes to the Co-Branded Site (the \\\"HCI Content\\\")\\nincluding but not limited to any and all creative\\n8\\nadvertisement content, or has obtained all necessary licenses,\\nclearances, assignments and waivers in respect of any and all\\nintellectual property used in the HCI Marks and the HCI Content,\\nincluding without limitation waivers of moral rights necessary to\\fpublish, license and distribute world-wide;\\n(iv) the use, reproduction, distribution or transmission of the HCI Marks and\\nHCI Content will not violate any laws including criminal laws,\\ncommercial laws, or any rights of any third parties including, but not\\nlimited to such violations as infringement or misappropriation of\\ncopyright, patent, trademark, trade defamation, invasion of privacy or\\nrights of celebrity, violation of any anti-discrimination law or\\nregulation, or any other right of any person or entity;\\n(v) the Co-Branded Site will function, operate and perform in all material\\nrespects in accordance with the requirements described or incorporated\\nin the Agreement;\\n(vi) it has all necessary skills and materials necessary to provide its\\ncontributions to the Co-Branded Site as contemplated by this Agreement.\\nHCI shall perform the services described herein in a timely fashion with\\nall due skill, competence and diligence and the quality of the Co-\\nBranded Site shall meet both HCI's and MLX's standards of high quality\\nand excellence;\"}, {\"ref\": \"F2\", \"seccion\": \"2\", \"epigrafe\": \"MLX'S OBLIGATIONS AND RESPONSIBILITIES\\fDuring the Term of this Agreeme\", \"pagina\": 1, \"texto\": \"2. MLX'S OBLIGATIONS AND RESPONSIBILITIES\\fDuring the Term of this Agreement MLX shall:\\na) continue to technically host and moderate all of the HealthyWay discussion\\nforums currently residing on the forums section of the Sympatico web site.\\nMediaLinx shall retain all right, title to and interest in the discussion\\nforums;\\nb) promote the Co-Branded Site as set out in Schedule \\\"1\\\" attached hereto;\\nc) grant to HCI, a non-exclusive and non-transferable right to use MediaLinx\\nimages and certain content contained in the HealthyWay web site (the\\n\\\"Sympatico Content\\\") for the sole purpose of satisfying the requirements of\\nthis Agreement. MediaLinx shall retain all right, title to and interest in\\nthe Sympatico Content;\\nd) grant to HCI, to the extent that HCI requires access to MLX logos and\\ntrademarks (collectively \\\"MLX Marks\\\") the use of certain MLX Marks as\\nnecessary for the purposes of fulfilling its obligations under this\\nAgreement. HCI assures that the MLX marks are used in accordance with MLX's\\nlogo usage guidelines as provided by MLX from time to time. Without\\nlimiting the generality of the foregoing, HCI agrees:\\n(i) that MLX is the owner of the MLX Marks and the goodwill and\\nreputation associated therewith;\\n(ii) not to contest the validity of the MLX Marks or MLX's title\\nthereto;\\n(iii) that HCI acquires no right, title or interest in the MLX Marks, and\\nany and all goodwill associated with the MLX Marks enures\\nexclusively to the benefit of MLX;\\n(iv) to notify MLX promptly of any attempt by any third party to use MLX\\nMa …[recortado]"
+  },
+  {
+   "n": 8,
+   "razonamiento": "",
+   "accion": "buscar_clausulas",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "consulta": "liquidated damages penalty termination fee shall pay the sum",
+    "k": 3
+   },
+   "observacion": "{\"doc_id\": \"CoBranding_Healthcentral_1999\", \"consulta\": \"liquidated damages penalty termination fee shall pay the sum\", \"fragmentos\": [{\"ref\": \"F1\", \"seccion\": \"14\", \"epigrafe\": \"INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless \", \"pagina\": 8, \"texto\": \"14. INDEMNIFICATION\\f(a) By MLX: MLX agrees to indemnify and hold harmless HCI and its employees,\\nrepresentatives, agents and affiliates from any and all liability, loss,\\nclaims, damages or causes of action (each a \\\"Claim\\\"), including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any claim that the MLX Marks or Sympatico Content or any MLX developed\\nadvertising infringes in any manner any copyright, patent, trademark, trade\\nsecret or any other intellectual property right of any third party;\\n(b) By HCI: HCI agrees to indemnify and hold harmless MLX and its employees,\\nrepresentatives, agents and affiliates from any Claim including reasonable\\nlegal fees and expenses that may be incurred by, arising out of or relating\\nto any third party claim that the HCI Marks or HCI Content or any HCI\\ndeveloped advertising infringes in any manner any copyright, patent,\\ntrademark, trade secret or any other intellectual property right of any\\nthird party; and\\n(c) Procedure: All indemnification obligations under Section 14, shall be\\nsubject to the following requirements:\\n(i) the indemnified party shall provide the indemnifying party with\\nprompt written notice of any Claim;\\n(ii) the indemnified party shall permit the indemnifying party to assume\\nand control the defense of any action upon the indemnifying party's\\nwritten acknowledgment of the obligation to indemnify; and\\n(iii) the indemnified party shall not enter into any settlement or\\ncompromise of any Claim without the indemnifying party's prior\\nwritten consent, which shall not be unreasonably withheld.\\nIn addition, the indemnified party may, at its own expense, participate in\\nits defense of any Claim. In the event that the indemnifying party assumes\\nthe defense of any such claim, the indemnifying party shall have no\\nliability for legal fees and costs incurred by the indemnified party.\"}, {\"ref\": \"F2\", \"seccion\": \"11\", \"epigrafe\": \"TERM & TERMINATION\", \"pagina\": 6, \"texto\": \"11. TERM & TERMINATION\\n11.1 Term\\nThe term of this Agreement shall be for a period of two (2) years (the \\\"Term\\\").\\nThe effective date of the start of the Term will be from the Launch Date.\\n11.2 Termination\\n(a) Either Party may terminate this Agreement upon 30 days prior written notice\\nto the other Party if 1) such other Party breaches any material term of\\nthis Agreement, unless such breach is cured within 30 days; or 2) if any of\\nthe terms of this Agreement that require mutual approval are not mutually\\nagreed to;\\n(b) This Agreement may be terminated by a Party immediately, without notice:\\n(i) upon the institution by or against the other Party of insolvency,\\nreceivership, or bankruptcy proceedings or any other proceedings\\nfor the settlement of the other Party's debts, if such proceedings\\nare not dismissed within sixty (60) days;\\n(ii) upon the other Party making an assignment for the benefit of\\ncreditors; or\\n(iii) upon the other Party's dissolution;\\n(c) Either party may terminate this Agreement upon 30 days written notice if\\neither Party's corporate structure has undergone a material ownership\\nchange such that its corporate interests are then in conflict with the\\ncorporate interests of the other Party; and\\n(d) Upon termination or expiration of this Agreement for any reason:\\n(i) the Parties shall immediately cease using the Marks of the other\\nParty;\\n(ii) the Parties shall immediately return to each other all property of\\nthe other and cease using or distributing all advertising or\\npromotional materials, if any, containing references to the other\\nParty or the other Party's product;\\n(iii) the Parties shall remove all special links made pursuant to this\\nAgreement from their respective products of the other Party; and\\n(iv) each Party shall pay to the other Party all outstanding amounts\\nwhich have accrued and are properly owing, including without\\nlimitation, any New Account customer commission payments or net\\nadvertising revenue owed outstanding together with any appropriate\\nfinal reports.\\n7\\f11.3 The exercise of a right of termination or other right or remedy in\\nconnection with this Agreement shall be without prejudice to any other\\nright or remedy to which the terminating party may be entitled under this\\nAgreement or applicable law.\"}, {\"ref\": \"F3\", \"seccion\": \"6\", \"epigrafe\": \"FINANCIALS\", \"pagina\": 4, \"texto\": \"6. FINANCIALS\\n(a) HCI shall pay MLX a guaranteed fixed sum of [*] US per annum during the\\nInitial Term of this Agreement to be paid out as a monthly payment of [*]\\nUS (the \\\"Monthly Payment\\\"). This Monthly Payment shall be due by the 10th\\nday of each month;\\n(b) HCI shall be entitled to all net revenue generated from advertising and e-\\ncommerce transactions generated by Canadian companies that may take place\\non the Co-Branded Site up to and including [*] US in any given year.\\nThereafter, any net revenues exceeding [*] US shall be shared fifty-fifty\\nbetween the parties (50% MediaLinx--50% HCI). HCI shall be entitled to all\\nproceeds generated from US companies on the Co-Branded Site. \\\"Net revenue\\\"\\nis defined as revenue less: 1) third party expenses directly related to the\\nacquisition of the revenue; for example, advertising broker commissions and\\nadvertising management services, and 2) internally paid commissions for\\nselling the advertisement and/or sponsorship;\\n(c) Both Parties shall keep true and accurate books and records of all revenue\\ngenerated as a result of the Co-Branded Site. Either Party shall have the\\nright from time to time to audit and make extracts of the books and records\\nof the other, insofar as said books or records pertain to the terms of this\\nAgreement. Any such audit s …[recortado]"
+  },
+  {
+   "n": 9,
+   "razonamiento": "",
+   "accion": "verificar_cita",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "seccion": "15",
+    "cita": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE\nCONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE\nOBLIGATIONS UNDER SECTION 20"
+   },
+   "observacion": "{\"cita_existe\": true, \"en_documento\": true, \"secciones_donde_aparece\": [\"15\"]}"
+  },
+  {
+   "n": 10,
+   "razonamiento": "",
+   "accion": "verificar_cita",
+   "argumentos": {
+    "doc_id": "CoBranding_Healthcentral_1999",
+    "seccion": "15",
+    "cita": "UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE\nOTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY\nCONTRACT, NEGLIGENCE,"
+   },
+   "observacion": "{\"cita_existe\": true, \"en_documento\": true, \"secciones_donde_aparece\": [\"15\"]}"
+  },
+  {
+   "n": 11,
+   "razonamiento": "tengo todo lo necesario",
+   "accion": null,
+   "argumentos": null,
+   "observacion": "Final Answer"
+  }
+ ],
+ "llamadas_llm": 11,
+ "tokens_entrada": 106362,
+ "tokens_entrada_cache": 93568,
+ "tokens_salida": 5769,
+ "errores_formato": 0,
+ "errores_tool": 0,
+ "repeticiones": 0,
+ "termino": "respuesta_final",
+ "respuesta_valida": true,
+ "respuesta": {
+  "doc_id": "CoBranding_Healthcentral_1999",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE\nCONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE\nOBLIGATIONS UNDER SECTION 20",
+    "justificacion": "La Sección 15 excluye del límite de responsabilidad las obligaciones de indemnización, confidencialidad y cumplimiento del año 2000, dejándolas sin tope."
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE\nOTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY\nCONTRACT, NEGLIGENCE,",
+    "justificacion": "La Sección 15 excluye daños indirectos, incidentales, consecuenciales, especiales o ejemplares, funcionando como tope de responsabilidad."
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'liquidated damages', 'penalty', 'termination fee' y 'shall pay the sum'; no existe cláusula que fije una suma predeterminada por incumplimiento o terminación."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "La Sección 11.2 solo permite terminación por incumplimiento material, insolvencia, disolución o cambio de control; no hay terminación sin causa con mero aviso."
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "La Sección 11.1 fija un plazo de dos (2) años sin cláusula de renovación automática ni periodos sucesivos."
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "24",
+    "cita": "neither Party may assign its rights or\nobligations under this Agreement without the prior written consent of the other\nParty, which shall not be unreasonably withheld.",
+    "justificacion": "La Sección 24 prohíbe la cesión sin consentimiento previo por escrito de la otra parte."
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "21",
+    "cita": "This Agreement shall be governed by and interpreted and enforced in accordance\nwith the laws of the Province of Ontario",
+    "justificacion": "La Sección 21 establece que el contrato se rige por las leyes de la Provincia de Ontario."
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": true,
+    "seccion": "9",
+    "cita": "HCI shall be the exclusive health content partner in the health section of the\nSympatico web site",
+    "justificacion": "La Sección 9 otorga a HCI el derecho exclusivo como socio de contenido de salud en el sitio Sympatico."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": true,
+    "seccion": "9",
+    "cita": "HCI shall not either directly or indirectly\nlicense or deliver content to or carry on or be engaged with any other Canadian\nportal web site",
+    "justificacion": "La Sección 9 impide a HCI licenciar o entregar contenido a, o involucrarse con, cualquier otro portal web canadiense."
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'work made for hire' y 'assigns all right, title and interest'; las Secciones 2 y 12 establecen que cada parte retiene su propia propiedad intelectual, sin cesión a la otra."
+   }
+  ]
+ },
+ "texto_final": "{\n  \"doc_id\": \"CoBranding_Healthcentral_1999\",\n  \"determinaciones\": [\n    {\"categoria\": \"uncapped_liability\", \"presente\": true, \"seccion\": \"15\", \"cita\": \"EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE\\nCONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE\\nOBLIGATIONS UNDER SECTION 20\", \"justificacion\": \"La Sección 15 excluye del límite de responsabilidad las obligaciones de indemnización, confidencialidad y cumplimiento del año 2000, dejándolas sin tope.\"},\n    {\"categoria\": \"cap_on_liability\", \"presente\": true, \"seccion\": \"15\", \"cita\": \"UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE\\nOTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY\\nCONTRACT, NEGLIGENCE,\", \"justificacion\": \"La Sección 15 excluye daños indirectos, incidentales, consecuenciales, especiales o ejemplares, funcionando como tope de responsabilidad.\"},\n    {\"categoria\": \"liquidated_damages\", \"presente\": false, \"seccion\": null, \"cita\": null, \"justificacion\": \"Se buscó 'liquidated damages', 'penalty', 'termination fee' y 'shall pay the sum'; no existe cláusula que fije una suma predeterminada por incumplimiento o terminación.\"},\n    {\"categoria\": \"termination_for_convenience\", \"presente\": false, \"seccion\": null, \"cita\": null, \"justificacion\": \"La Sección 11.2 solo permite terminación por incumplimiento material, insolvencia, disolución o cambio de control; no hay terminación sin causa con mero aviso.\"},\n    {\"categoria\": \"renewal_term\", \"presente\": false, \"seccion\": null, \"cita\": null, \"justificacion\": \"La Sección 11.1 fija un plazo de dos (2) años sin cláusula de renovación automática ni periodos sucesivos.\"},\n    {\"categoria\": \"anti_assignment\", \"presente\": true, \"seccion\": \"24\", \"cita\": \"neither Party may assign its rights or\\nobligations under this Agreement without the prior written consent of the other\\nParty, which shall not be unreasonably withheld.\", \"justificacion\": \"La Sección 24 prohíbe la cesión sin consentimiento previo por escrito de la otra parte.\"},\n    {\"categoria\": \"governing_law\", \"presente\": true, \"seccion\": \"21\", \"cita\": \"This Agreement shall be governed by and interpreted and enforced in accordance\\nwith the laws of the Province of Ontario\", \"justificacion\": \"La Sección 21 establece que el contrato se rige por las leyes de la Provincia de Ontario.\"},\n    {\"categoria\": \"exclusivity\", \"presente\": true, \"seccion\": \"9\", \"cita\": \"HCI shall be the exclusive health content partner in the health section of the\\nSympatico web site\", \"justificacion\": \"La Sección 9 otorga a HCI el derecho exclusivo como socio de contenido de salud en el sitio Sympatico.\"},\n    {\"categoria\": \"non_compete\", \"presente\": true, \"seccion\": \"9\", \"cita\": \"HCI shall not either directly or indirectly\\nlicense or deliver content to or carry on or be engaged with any other Canadian\\nportal web site\", \"justificacion\": \"La Sección 9 impide a HCI licenciar o entregar contenido a, o involucrarse con, cualquier otro portal web canadiense.\"},\n    {\"categoria\": \"ip_ownership_assignment\", \"presente\": false, \"seccion\": null, \"cita\": null, \"justificacion\": \"Se buscó 'work made for hire' y 'assigns all right, title and interest'; las Secciones 2 y 12 establecen que cada parte retiene su propia propiedad intelectual, sin cesión a la otra.\"}\n  ]\n}",
+ "segundos": 91.0,
+ "costo_usd": 0.00863,
+ "filas": [
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "termination_for_convenience",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "exclusivity",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "non_compete",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "ip_ownership_assignment",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

@@ -1,0 +1,102 @@
+# Tareas del crew (convención CrewAI: description / expected_output).
+# Los marcadores {…} se completan en Python antes de crear cada Task; el texto no debe tener
+# otras llaves.
+
+auditar:
+  description: >
+    Revisa el contrato {doc_id} para estas categorías de riesgo:
+
+    {checklist}
+
+    {lecciones}
+
+    {feedback}
+
+    Para CADA categoría de la lista:
+
+    1. Busca con buscar_clausulas usando doc_id="{doc_id}", términos legales en inglés y k=3.
+    Si la primera búsqueda no basta, reformula una vez.
+
+    2. Si encuentras texto que establece la categoría: presente=true; cita = copia LITERAL,
+    carácter por carácter, de 15 a 300 caracteres del fragmento devuelto; seccion = su número;
+    afirmacion = qué establece y por qué es un riesgo para nuestro cliente, en español; mutua =
+    si aplica a ambas partes por igual; con_excepciones = si el mismo texto trae excepciones o
+    límites.
+
+    3. Si tras buscar no encuentras texto que la establezca: presente=false, sin cita ni sección.
+    No confundas categorías: una cláusula de confidencialidad no es exclusividad, y una licencia
+    no es cesión de propiedad intelectual.
+
+    Entrega exactamente una entrada por cada categoría de la lista.
+  expected_output: >
+    Un hallazgo por cada categoría asignada, presente o ausente, con cita literal y sección
+    cuando está presente.
+
+matizar:
+  description: >
+    El Auditor entregó hallazgos sobre el contrato {doc_id} (están en el contexto). Para cada
+    hallazgo con presente=true:
+
+    1. Lee completa la sección citada con leer_seccion y busca en el resto del contrato, con
+    buscar_clausulas, excepciones, topes, reciprocidad, plazos de aviso o referencias cruzadas
+    ("subject to Section X") que lo anulen o lo atenúen.
+
+    2. Decide un veredicto:
+    se_sostiene = el hallazgo es correcto tal como está;
+    se_matiza = la cláusula existe pero otro texto limita su alcance;
+    se_descarta = el texto citado NO establece esa categoría (es otra cosa) u otra cláusula lo
+    deja sin efecto.
+
+    3. Si matizas o descartas, da la contracita LITERAL y su sección. Si se sostiene, contracita
+    vacía.
+
+    Ignora los hallazgos con presente=false. No te opongas por oponerte.
+  expected_output: >
+    Un veredicto por cada hallazgo presente, con argumento y, si matiza o descarta, contracita
+    literal con su sección.
+
+verificar:
+  description: >
+    Revisa la evidencia sobre el contrato {doc_id}: los hallazgos del Auditor y, si existen, los
+    matices del Defensor (están en el contexto). No busques cláusulas nuevas.
+
+    Para cada hallazgo con presente=true:
+
+    1. Llama verificar_cita con su cita, doc_id="{doc_id}" y su sección; cita_existe es lo que
+    responda la herramienta.
+
+    2. cita_respalda: el texto citado establece realmente lo que dice la afirmación y
+    corresponde a la categoría. Si dudas, lee la sección con leer_seccion.
+
+    3. Si el Defensor matizó o descartó ese hallazgo, verifica su contracita del mismo modo;
+    matiz_respaldado = la contracita existe y sostiene su argumento. Si no hubo matiz, déjalo
+    vacío.
+
+    4. motivo: una frase con tu juicio. Si algo falla, di exactamente qué, para que el Auditor
+    pueda corregirlo.
+  expected_output: >
+    Una verificación por cada hallazgo presente.
+
+redactar:
+  description: >
+    Redacta el informe de riesgos del contrato {doc_id} usando SOLO estos hallazgos aprobados.
+    La severidad ya está calculada por reglas: no la cambies.
+
+    {aprobados}
+
+    Categorías revisadas sin hallazgos: {ausentes}
+
+    Categorías con un posible hallazgo que NO pudo verificarse (requieren revisión humana):
+    {rechazados}
+
+    Estructura del informe en Markdown: título; resumen ejecutivo de 2 o 3 frases; tabla de
+    riesgos (categoría, severidad, sección) ordenada de mayor a menor severidad; una subsección
+    por hallazgo con qué establece, la cita entre comillas rectas copiada tal cual aparece
+    arriba, el matiz del Defensor si lo hay y la razón de su severidad; una sección "Pendiente
+    de revisión humana" con las categorías no verificadas y su motivo, sin citas; y al final la
+    lista de categorías sin hallazgos.
+
+    Guarda el informe con guardar_informe(doc_id="{doc_id}", markdown=el informe completo). Si
+    la herramienta lo rechaza, corrige exactamente lo que indique y vuelve a guardarlo.
+  expected_output: >
+    La ruta del informe guardado que devuelve guardar_informe.

@@ -1,0 +1,79 @@
+{
+ "doc_id": "MSA_MeritLife_2020",
+ "con_memoria_k4": [
+  {
+   "pregunta": "¿El contrato limita la responsabilidad del contratista? ¿En qué sección?",
+   "respuesta": "Sí. La limitación está en la **Sección 7, \"LIMITATIONS OF LIABILITY; INDEMNIFICATION OF CONTRACTOR\"** (pág. 7):\n\n- **Tope para el contratista:** \"CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.\" (Sección 7(a))\n- **Excepción a ese tope:** la propia cláusula empieza con \"EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF\" (Sección 7(a)). Nota: la referencia es al párrafo 9, que en el documento aparece como \"9. INDEPENDENT CONTRACTOR\".\n- **Exclusión de daños indirectos:** \"NEITHER PARTY SHALL HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\" (Sección 7(b))\n- **Honorarios de abogados:** \"IN ANY SUIT ARISING FROM THIS AGREEMENT EACH PARTY SHALL BE RESPONSIBLE FOR ITS OWN ATTORNEYS FEES.\" (Sección 7(c))\n\nTambién hay un tope recíproco para la Company: \"COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR.\" (Sección 7(a))\n\nNo soy asesor legal; esto es solo lo que dice el contrato.",
+   "tools": [
+    [
+     "buscar_clausulas",
+     {
+      "doc_id": "MSA_MeritLife_2020",
+      "consulta": "limitation of liability cap contractor",
+      "k": 6
+     }
+    ],
+    [
+     "buscar_clausulas",
+     {
+      "doc_id": "MSA_MeritLife_2020",
+      "consulta": "consequential damages exclusion liability",
+      "k": 5
+     }
+    ]
+   ]
+  },
+  {
+   "pregunta": "¿Esa cláusula tiene alguna excepción?",
+   "respuesta": "Sí, hay una excepción, y es la única que aparece en esa cláusula:\n\n**Excepción al tope de responsabilidad del contratista** — Sección 7(a):\n\"EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF, CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.\"\n\nEl párrafo 9 exceptuado es **\"9. INDEPENDENT CONTRACTOR\"** (pág. 8), que trata de la relación de contratista independiente: \"Contractor is performing the Services as an independent contractor and not as an employee of Company...\", la responsabilidad por impuestos y gastos (\"Contractor shall be responsible for all taxes and other expenses arising from the employment or independent contractor relationship...\"), y que nada constituye sociedad, joint venture o agencia entre las partes.\n\nOtras matizaciones dentro de la Sección 7:\n- El tope de la Company no lleva esa excepción: \"COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR.\" (7(a))\n- La exclusión de daños indirectos es mutua y sin excepción expresa: \"NEITHER PARTY SHALL HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES...\" (7(b))\n\nNo soy asesor legal; esto es solo lo que dice el contrato.",
+   "tools": [
+    [
+     "leer_seccion",
+     {
+      "doc_id": "MSA_MeritLife_2020",
+      "seccion": "9"
+     }
+    ]
+   ]
+  },
+  {
+   "pregunta": "¿Y qué dice la sección que mencionaste en la excepción?",
+   "respuesta": "La sección exceptuada es el **párrafo 9, \"INDEPENDENT CONTRACTOR\"** (pág. 8). Su texto:\n\n\"9. INDEPENDENT CONTRACTOR. Contractor is performing the Services as an independent contractor and not as an employee of Company. Nothing in this Agreement shall be construed to create a partnership, joint venture, franchise, agency or other similar relationship between the parties. Contractor shall be responsible for all taxes and other expenses arising from the employment or independent contractor relationship between Company and Contractor, including but not limited to, unemployment insurance, social security taxes, workers' compensation insurance and income tax withholding. Contractor shall have no authority to enter into contracts or create obligations on behalf of Company, and shall not represent to any third party that it has such authority.\"\n\nEn resumen, lo que dice esa sección:\n- El contratista actúa como contratista independiente, no como empleado.\n- Nada crea sociedad, joint venture, franquicia ni agencia entre las partes.\n- El contratista asume impuestos y gastos derivados de la relación (seguro de desempleo, seguridad social, workers' compensation, retención de impuestos).\n- No puede contratar ni crear obligaciones en nombre de la Company, ni decir a terceros que tiene esa facultad.\n\nPor eso el tope de responsabilidad de la Sección 7(a) no aplica a las obligaciones del contratista bajo este párrafo 9.\n\nNo soy asesor legal; esto es solo lo que dice el contrato.",
+   "tools": []
+  }
+ ],
+ "sin_memoria_k0": [
+  {
+   "pregunta": "¿El contrato limita la responsabilidad del contratista? ¿En qué sección?",
+   "respuesta": "Sí. La limitación está en la **Sección 7, \"LIMITATIONS OF LIABILITY; INDEMNIFICATION OF CONTRACTOR\"** (pág. 7).\n\nPuntos clave:\n\n- **Tope del contratista:** \"CONTRACTOR'S MAXIMUM LIABILITY TO COMPANY ARISING FOR ANY REASON RELATING TO CONTRACTOR'S PERFORMANCE OF SERVICES UNDER A STATEMENT OF WORK SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR FOR THE PERFORMANCE OF SUCH SERVICES.\" (Sec. 7(a))\n- **Excepción a ese tope:** la propia cláusula empieza con \"EXCEPT WITH RESPECT TO CONTRACTOR'S OBLIGATIONS PURSUANT TO PARAGRAPH 9 HEREOF\" (Sec. 7(a)). Nota: el párrafo 9 es \"INDEPENDENT CONTRACTOR\", así que la remisión parece apuntar a otra obligación; conviene revisarlo con cuidado.\n- **Tope recíproco de la empresa:** \"COMPANYS' MAXIMUM LIABILITY TO CONTRACTOR FOR ANY REASON ARISING OUT OF THIS AGREEMENT SHALL BE LIMITED TO THE AMOUNT OF FEES PAID TO CONTRACTOR.\" (Sec. 7(a))\n- **Exclusión de daños indirectos:** \"NEITHER PARTY SHALL HAVE ANY LIABILITY TO THE OTHER PARTY FOR ANY LOST PROFITS OR SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES, EVEN IF SUCH PARTY HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.\" (Sec. 7(b))\n- **Honorarios de abogados:** \"IN ANY SUIT ARISING FROM THIS AGREEMENT EACH PARTY SHALL BE RESPONSIBLE FOR ITS OWN ATTORNEYS FEES.\" (Sec. 7(c))\n\nNo es asesoramiento legal; solo describo lo que dice el contrato.",
+   "tools": [
+    [
+     "buscar_clausulas",
+     {
+      "doc_id": "MSA_MeritLife_2020",
+      "consulta": "limitation of liability cap contractor",
+      "k": 6
+     }
+    ],
+    [
+     "buscar_clausulas",
+     {
+      "doc_id": "MSA_MeritLife_2020",
+      "consulta": "consequential damages exclusion indirect",
+      "k": 5
+     }
+    ]
+   ]
+  },
+  {
+   "pregunta": "¿Esa cláusula tiene alguna excepción?",
+   "respuesta": "No tengo contexto previo en esta conversación sobre a qué cláusula te refieres. ¿Puedes indicarme el número de sección o el tema (por ejemplo, limitación de responsabilidad, indemnización, terminación)?",
+   "tools": []
+  },
+  {
+   "pregunta": "¿Y qué dice la sección que mencionaste en la excepción?",
+   "respuesta": "No tengo historial previo en esta conversación: no mencioné ninguna sección ni excepción antes, así que no puedo saber a cuál te refieres.\n\n¿Me indicas el número de sección o el tema (por ejemplo, limitación de responsabilidad, indemnización, terminación)? Con eso la leo y te digo qué dice.",
+   "tools": []
+  }
+ ]
+}

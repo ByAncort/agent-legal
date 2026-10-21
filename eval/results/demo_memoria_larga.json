@@ -1,0 +1,10 @@
+{
+ "origen": "MSA_MeritLife_2020",
+ "lecciones_guardadas": [
+  "[uncapped_liability] FALSO POSITIVO del Auditor en MSA_MeritLife_2020: afirmó 'El tope de responsabilidad del Contratista no aplica a sus obligaciones del párrafo 9, de modo que frente a ciertos incumplimientos (los cubiertos por ese párrafo) el Contratista responde sin límite a' (§7) y el Defensor lo descartó con evidencia: El Auditor lee la excepción del párrafo 7(a) como si el párrafo 9 contuviera obligaciones de riesgo ilimitado del Contratista. Leído el texto completo, el párrafo 9 ('INDEPENDENT CONTRACTOR') no impone al Contratista ninguna obligación indemnizatoria ni de garantía: es una cláusula de calificación de la relación (contratista independiente, no empleado; sin sociedad ni agencia; responsabilidad por  Lección al auditar 'Responsabilidad ilimitada': no confundir esa cláusula con esta categoría."
+ ],
+ "recuperado_en_otro_proceso": {
+  "contrato": "Mantenimiento_XImage_Sagem_1999",
+  "texto_para_el_auditor": "Lecciones de revisiones anteriores (errores que el equipo atrapó en otros contratos; evita repetirlos):\n- [uncapped_liability] FALSO POSITIVO del Auditor en MSA_MeritLife_2020: afirmó 'El tope de responsabilidad del Contratista no aplica a sus obligaciones del párrafo 9, de modo que frente a ciertos incumplimientos (los cubiertos por ese párrafo) el Contratista responde sin límite a' (§7) y el Defensor lo descartó con evidencia: El Auditor lee la excepción del párrafo 7(a) como si el párrafo 9 contuviera obligaciones de riesgo ilimitado del Contratista. Leído el texto completo, el párrafo 9 ('INDEPENDENT CONTRACTOR') no impone al Contratista ninguna obligación indemnizatoria ni de garantía: es una cláusula de calificación de la relación (contratista independiente, no empleado; sin sociedad ni agencia; responsabilidad por  Lección al auditar 'Responsabilidad ilimitada': no confundir esa cláusula con esta categoría."
+ }
+}

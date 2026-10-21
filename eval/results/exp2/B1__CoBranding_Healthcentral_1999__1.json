@@ -1,0 +1,181 @@
+{
+ "config": "B1",
+ "doc_id": "CoBranding_Healthcentral_1999",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "CoBranding_Healthcentral_1999",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "EXCEPT WITH RESPECT TO THE INDEMNITY OBLIGATIONS IN SECTION 14, THE CONFIDENTIALITY OBLIGATIONS UNDER SECTION 16, AND THE YEAR 2000 COMPLIANCE OBLIGATIONS UNDER SECTION 20",
+    "justificacion": "La Sección 15 excluye del tope/limitación de responsabilidad las obligaciones de indemnización (14), confidencialidad (16) y cumplimiento Y2K (20), dejando esas materias sin límite."
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "UNDER NO CIRCUMSTANCES SHALL EITHER PARTY BE LIABLE TO THE OTHER PARTY WITH RESPECT TO THE SUBJECT MATTER OF THIS AGREEMENT UNDER ANY CONTRACT, NEGLIGENCE,",
+    "justificacion": "La Sección 15 excluye daños indirectos, incidentales, consecuenciales, especiales o ejemplares, funcionando como limitación de responsabilidad."
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'liquidated damages', 'penalty', 'termination fee', 'shall pay the sum of'. La Sección 6 fija un pago mensual garantizado (Monthly Payment) como contraprestación, no como penalidad por incumplimiento; no hay suma predeterminada por incumplimiento o terminación."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "La Sección 11.2 permite terminar por incumplimiento material, insolvencia o cambio de control, pero no existe terminación sin causa con solo aviso previo (for convenience)."
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "La Sección 11.1 fija un plazo de dos (2) años sin cláusula de renovación automática ni periodos sucesivos; se descarta renovación."
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "24",
+    "cita": "neither Party may assign its rights or obligations under this Agreement without the prior written consent of the other Party, which shall not be unreasonably withheld.",
+    "justificacion": "La Sección 24 (Successors and Assigns) exige consentimiento previo por escrito de la otra parte para ceder el contrato."
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "21",
+    "cita": "This Agreement shall be governed by and interpreted and enforced in accordance with the laws of the Province of Ontario",
+    "justificacion": "La Sección 21 (Governing Law) establece la ley de la Provincia de Ontario y la jurisdicción de sus tribunales."
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": true,
+    "seccion": "9",
+    "cita": "HCI shall be the exclusive health content partner in the health section of the Sympatico web site",
+    "justificacion": "La Sección 9 (Exclusivity) otorga a HCI el derecho exclusivo como socio de contenido de salud en la sección de salud del sitio Sympatico."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": true,
+    "seccion": "9",
+    "cita": "HCI shall not either directly or indirectly license or deliver content to or carry on or be engaged with any other Canadian portal web site",
+    "justificacion": "La Sección 9 prohíbe a HCI licenciar o entregar contenido a, o involucrarse con, cualquier otro portal web canadiense, restringiendo su actividad competitiva."
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'work made for hire', 'assigns all right, title and interest', 'intellectual property ownership'. Las Secciones 2, 3 y 12 solo confirman que cada parte retiene la titularidad de sus propias marcas y contenido (no hay cesión de PI de una parte a la otra)."
+   }
+  ]
+ },
+ "segundos": 76.0,
+ "llamadas_llm": 5,
+ "costo_usd": 0.00814,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 69703,
+  "cache": 49920,
+  "salida": 2875
+ },
+ "filas": [
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "uncapped_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "termination_for_convenience",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "renewal_term",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "exclusivity",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "non_compete",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "CoBranding_Healthcentral_1999",
+   "categoria": "ip_ownership_assignment",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

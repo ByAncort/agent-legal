@@ -1,0 +1,181 @@
+{
+ "config": "B1",
+ "doc_id": "Mantenimiento_XImage_Sagem_1999",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "Mantenimiento_XImage_Sagem_1999",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'unlimited liability', 'cap shall not apply' y excepciones al tope. La Sección 15 fija un tope amplio ('regardless of whether any such liability is based upon contract, tort or other basis') sin excluir indemnizaciones ni confidencialidad, por lo que no existe responsabilidad ilimitada."
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "shall be limited to an amount not to exceed the basic Monthly Maintenance Charges, for a sixty (60) day term under this Agreement.",
+    "justificacion": "La Sección 15 limita la responsabilidad total de XIMAGE a los cargos de mantenimiento mensual de 60 días y excluye daños incidentales, consecuenciales, especiales o indirectos."
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'liquidated damages', 'penalty', 'termination fee' y 'shall pay the sum of'. Las Secciones 6, 9 y 10 solo fijan tarifas por servicios (charges, hourly rates, administration fee), no sumas predeterminadas por incumplimiento o terminación."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'terminate for convenience', 'without cause', 'at any time'. La Sección 13 solo permite terminar por causa (incumplimiento material, falta de pago o quiebra), no sin causa."
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": true,
+    "seccion": "2",
+    "cita": "This Agreement shall automatically renew for consecutive one (1) year terms at XIMAGE's then prevailing rates at the end of each one (1) year term unless either party gives at least sixty (60) days prior written notice of the non-renewal of this Agreement.",
+    "justificacion": "La Sección 2 establece renovación automática por periodos consecutivos de un año salvo aviso de no renovación con 60 días de antelación."
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "18",
+    "cita": "The interests of MORPHO in this Agreement are personal and shall not be assigned, transferred, shared or divided in any manner by MORPHO without a prior written consent of XIMAGE.",
+    "justificacion": "La Sección 18 prohíbe a MORPHO ceder o transferir el contrato sin consentimiento previo por escrito de XIMAGE."
+   },
+   {
+    "categoria": "governing_law",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'governed by the laws of', 'governing law', 'construed in accordance'. La Sección 16 solo prevé arbitraje bajo las reglas de la AAA en Washington State, sin declarar una ley aplicable al contrato."
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'exclusive', 'sole provider', 'shall not engage any other'. No hay cláusula que obligue a tratar exclusivamente con la otra parte ni conceda derechos exclusivos de proveedor, territorio o canal."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "Se buscó 'non-compete', 'shall not compete', 'competitive business'. No existe cláusula que impida a alguna parte competir con la otra o operar en cierto mercado o línea de negocio."
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": true,
+    "seccion": "3",
+    "cita": "give title to all modifications and improvements to the PSS Software which XIMAGE generally makes available to its other customers",
+    "justificacion": "La Sección 3(c) establece que XIMAGE cede el título (title) a MORPHO sobre todas las modificaciones y mejoras al PSS Software, lo que constituye una cesión de propiedad intelectual."
+   }
+  ]
+ },
+ "segundos": 65.4,
+ "llamadas_llm": 6,
+ "costo_usd": 0.00673,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 62701,
+  "cache": 48512,
+  "salida": 3329
+ },
+ "filas": [
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "uncapped_liability",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "termination_for_convenience",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "renewal_term",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "governing_law",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "ip_ownership_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  }
+ ]
+}

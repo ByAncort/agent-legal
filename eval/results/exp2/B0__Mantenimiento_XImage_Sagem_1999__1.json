@@ -1,0 +1,181 @@
+{
+ "config": "B0",
+ "doc_id": "Mantenimiento_XImage_Sagem_1999",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "Mantenimiento_XImage_Sagem_1999",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nLos fragmentos recuperados muestran lo contrario: una limitación con tope y exclusiones, sin excepciones a ese tope.\n\n- Tope: \"XIMAGE's total liability to MORPHO ... shall be limited to an amount not to exceed the basic Monthly Maintenance Charges, fo"
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "shall be limited to an amount not to exceed the basic Monthly Maintenance Charges, for a sixty (60) day term under this Agreement.",
+    "justificacion": "Sí. El contrato contiene una cláusula de limitación de responsabilidad con un tope máximo y una exclusión de daños indirectos.\n\n**Tope máximo:** la responsabilidad total de XIMAGE \"shall be limited to an amount not to exceed the basic Monthly Maintenance Charges, for a sixty (60) day term under this"
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nLas causales de terminación recogidas en los fragmentos exigen siempre un incumplimiento o una situación de insolvencia de la otra parte: \"(a) Upon sixty (60) days' written notice if the other party has failed to perform any material obligation...\", \""
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": true,
+    "seccion": "2",
+    "cita": "unless sooner terminated as provided herein, shall remain in full force and effect for at least one year thereafter. This Agreement shall automatically renew for consecutive one (1) year terms at XIMAGE's then prevailing rates at the end of each one (1) year term unless either party gives at least sixty (60) days prior written notice of the non-renewal of this Agreement.",
+    "justificacion": "Sí. El contrato se renueva automáticamente por períodos consecutivos de un (1) año, salvo aviso de no renovación con al menos sesenta (60) días de antelación:\n\n\"unless sooner terminated as provided herein, shall remain in full force and effect for at least one year thereafter. This Agreement shall a"
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "18",
+    "cita": "The interests of MORPHO in this Agreement are personal and shall not be assigned, transferred, shared or divided in any manner by MORPHO without a prior written consent of XIMAGE.",
+    "justificacion": "Sí. El contrato contiene una cláusula que prohíbe la cesión sin consentimiento previo por escrito:\n\n\"The interests of MORPHO in this Agreement are personal and shall not be assigned, transferred, shared or divided in any manner by MORPHO without a prior written consent of XIMAGE.\" (Mantenimiento_XIm"
+   },
+   {
+    "categoria": "governing_law",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   }
+  ]
+ },
+ "segundos": 68.2,
+ "llamadas_llm": 10,
+ "costo_usd": 0.00447,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 15933,
+  "cache": 1792,
+  "salida": 1091
+ },
+ "filas": [
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "uncapped_liability",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "termination_for_convenience",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "renewal_term",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "governing_law",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Mantenimiento_XImage_Sagem_1999",
+   "categoria": "ip_ownership_assignment",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  }
+ ]
+}

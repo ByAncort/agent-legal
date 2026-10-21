@@ -1,0 +1,190 @@
+{
+ "config": "C3-mem",
+ "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "The limitation of liability in this Section 15 shall not apply to breaches of\nSections 13 and 14.",
+    "justificacion": "aprobado: severidad base de la categoría: Alta; la obligación es mutua; matizada por el Defensor (§15)"
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "The exclusive remedy of either party in a claim against the other under\nthis Agreement shall be the recovery of its direct damages. In no event shall\neither party be liable to the other for the recovery of any special, indirect or\nconsequential damages",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua; matizada por el Defensor (§15)"
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": true,
+    "seccion": "17",
+    "cita": "(b) Sparkling may terminate this Agreement at any time upon ninety (90)\ncalendar days written notice to Garman.",
+    "justificacion": "aprobado: severidad base de la categoría: Media"
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": true,
+    "seccion": "10",
+    "cita": "For a renewable one-year term commencing upon the Maintenance Commencement\nDate, subject to payment of maintenance fees in accordance with the Fee Schedule",
+    "justificacion": "aprobado: severidad base de la categoría: Media; matizada por el Defensor (§17)"
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "20",
+    "cita": "(d) Neither party may assign this Agreement or any rights and\nobligations under this Agreement to any third party without the written consent\nof the other party.",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua"
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": "20",
+    "cita": "(h) This Agreement shall be governed by the laws of Nova Scotia and the\nlaws of Canada applicable in Nova Scotia. All disputes under this Agreement\nshall be subject to the non-exclusive jurisdiction of the courts of Nova Scotia.",
+    "justificacion": "aprobado: severidad base de la categoría: Baja; la obligación es mutua"
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "ausente: "
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": true,
+    "seccion": "13",
+    "cita": "Garman is the owner of all intellectual property rights in the Work\n(including any Improvements or Modifications thereto), including all related\nmaterials, logos, and names provided pursuant to the terms of this Agreement. No\ntitle to the intellectual property in the Work is transferred to Sparkling by\nthis Agreement.",
+    "justificacion": "aprobado: severidad base de la categoría: Media; matizada por el Defensor (§16)"
+   }
+  ]
+ },
+ "segundos": 81.9,
+ "llamadas_llm": 75,
+ "costo_usd": 0.12859,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 666880,
+  "cache": 318720,
+  "salida": 52810
+ },
+ "estados": {
+  "aprobado": 7,
+  "rechazado": 0,
+  "descartado": 0,
+  "ausente": 3
+ },
+ "rechazos_guardrail": 0,
+ "reintentos": 0,
+ "corrida": "outputs/corridas/20261009_130838_C3-mem_Licencia_Mantenimiento_SparklingSpring_2002",
+ "filas": [
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "uncapped_liability",
+   "esperado": false,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "termination_for_convenience",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "renewal_term",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "ip_ownership_assignment",
+   "esperado": false,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": null
+  }
+ ]
+}

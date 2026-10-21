@@ -1,0 +1,181 @@
+{
+ "config": "B0",
+ "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+ "run": 1,
+ "respuesta": {
+  "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+  "determinaciones": [
+   {
+    "categoria": "uncapped_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "The limitation of liability in this Section 15 shall not apply to breaches of Sections 13 and 14.",
+    "justificacion": "Sí. La limitación de responsabilidad de la Sección 15 tiene una excepción expresa: \"The limitation of liability in this Section 15 shall not apply to breaches of Sections 13 and 14.\" (Licencia_Mantenimiento_SparklingSpring_2002, sección 15 LIMITATION OF GARMAN'S LIABILITY).\n\nEs decir, frente a incum"
+   },
+   {
+    "categoria": "cap_on_liability",
+    "presente": true,
+    "seccion": "15",
+    "cita": "The exclusive remedy of either party in a claim against the other under this Agreement shall be the recovery of its direct damages.",
+    "justificacion": "Sí. El contrato limita la responsabilidad a los daños directos y excluye expresamente los daños indirectos o consecuenciales:\n\n- \"The exclusive remedy of either party in a claim against the other under this Agreement shall be the recovery of its direct damages.\" (Licencia_Mantenimiento_SparklingSpri"
+   },
+   {
+    "categoria": "liquidated_damages",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "termination_for_convenience",
+    "presente": true,
+    "seccion": "17",
+    "cita": "Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman.",
+    "justificacion": "Sí. El contrato reconoce a Sparkling la facultad de terminar sin causa, únicamente con aviso previo:\n\n\"Sparkling may terminate this Agreement at any time upon ninety (90) calendar days written notice to Garman.\" (Licencia_Mantenimiento_SparklingSpring_2002, sección 17 TERM AND TERMINATION, apartado "
+   },
+   {
+    "categoria": "renewal_term",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nLos fragmentos solo indican que el servicio de mantenimiento se presta \"[f]or a renewable one-year term commencing upon the Maintenance Commencement Date\" (Licencia_Mantenimiento_SparklingSpring_2002, sección 10 MAINTENANCE AND SUPPORT), y que el acue"
+   },
+   {
+    "categoria": "anti_assignment",
+    "presente": true,
+    "seccion": "20",
+    "cita": "Neither party may assign this Agreement or any rights and obligations under this Agreement to any third party without the written consent of the other party.",
+    "justificacion": "Sí. El contrato prohíbe la cesión sin consentimiento escrito de la otra parte:\n\n- \"Neither party may assign this Agreement or any rights and obligations under this Agreement to any third party without the written consent of the other party.\" (Licencia_Mantenimiento_SparklingSpring_2002, sección 20 G"
+   },
+   {
+    "categoria": "governing_law",
+    "presente": true,
+    "seccion": null,
+    "cita": "Este Acuerdo se regirá por las leyes de Nueva Escocia y las leyes de Canadá aplicables en Nueva Escocia. Todas las disputas en virtud de este Acuerdo estarán sujetas a la jurisdicción no exclusiva de los tribunales de Nueva Escocia.",
+    "justificacion": "Sí. El contrato establece:\n\n\"Este Acuerdo se regirá por las leyes de Nueva Escocia y las leyes de Canadá aplicables en Nueva Escocia. Todas las disputas en virtud de este Acuerdo estarán sujetas a la jurisdicción no exclusiva de los tribunales de Nueva Escocia.\" (Licencia_Mantenimiento_SparklingSpri"
+   },
+   {
+    "categoria": "exclusivity",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados."
+   },
+   {
+    "categoria": "non_compete",
+    "presente": false,
+    "seccion": null,
+    "cita": null,
+    "justificacion": "No encontrado en los documentos proporcionados.\n\nEl fragmento [F1] regula la no captación de empleados, no la no competencia: \"both parties agree not to hire or allow its respective affiliates to hire any employee of the other party\" (Licencia_Mantenimiento_SparklingSpring_2002, sección 19 NON-SOLIC"
+   },
+   {
+    "categoria": "ip_ownership_assignment",
+    "presente": true,
+    "seccion": "13",
+    "cita": "Garman is the owner of all intellectual property rights in the Work (including any Improvements or Modifications thereto), including all related materials, logos, and names provided pursuant to the terms of this Agreement. No title to the intellectual property in the Work is transferred to Sparkling by this Agreement.",
+    "justificacion": "No. El contrato contiene lo contrario: una cláusula que declara que la propiedad intelectual permanece en Garman y que no se transfiere a Sparkling.\n\n\"Garman is the owner of all intellectual property rights in the Work (including any Improvements or Modifications thereto), including all related mate"
+   }
+  ]
+ },
+ "segundos": 72.7,
+ "llamadas_llm": 10,
+ "costo_usd": 0.00762,
+ "termino": "respuesta_final",
+ "tokens": {
+  "entrada": 27840,
+  "cache": 2688,
+  "salida": 1204
+ },
+ "filas": [
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "uncapped_liability",
+   "esperado": false,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "cap_on_liability",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "liquidated_damages",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "termination_for_convenience",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "renewal_term",
+   "esperado": true,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "anti_assignment",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": true
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "governing_law",
+   "esperado": true,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": false,
+   "seccion_correcta": false
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "exclusivity",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "non_compete",
+   "esperado": false,
+   "predicho": false,
+   "respondida": true,
+   "cita_fiel": null,
+   "seccion_correcta": null
+  },
+  {
+   "doc_id": "Licencia_Mantenimiento_SparklingSpring_2002",
+   "categoria": "ip_ownership_assignment",
+   "esperado": false,
+   "predicho": true,
+   "respondida": true,
+   "cita_fiel": true,
+   "seccion_correcta": null
+  }
+ ]
+}

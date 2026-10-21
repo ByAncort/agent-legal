@@ -1,0 +1,5 @@
+# Servidor de Arize Phoenix (interfaz de trazas), en un venv aparte: es una aplicación con
+# dependencias propias que no deben mezclarse con las versiones fijadas de CrewAI y MCP.
+#   python -m venv .venv-phoenix
+#   .venv-phoenix\Scripts\python -m pip install -r requirements-phoenix.txt
+arize-phoenix==20.20.0
